@@ -1,9 +1,10 @@
 450.1.1={
 	holder=8605
-	liege = "k_visigoths"
+	liege = "d_catalonia"
 }
-510.1.1={
+497.1.1={
 	holder=8606
+	liege = "k_visigoths"
 }
 511.1.1={ 
 	holder=190068 #Amalareiks

@@ -1,0 +1,91 @@
+bookmark =
+{
+	#name = "BM_LITTLE_AUGUSTUS"
+	name = "BM_FATE_OF_ENGLAND"
+	desc = "BM_LITTLE_AUGUSTUS_DESC"
+	date = 476.2.2
+	
+	#Empires
+	character = 70515 # Emperor Zenon
+	character = 96054 # Romulus Augustus
+	#Kingdoms
+	character = 55 #Odoacer
+	character = 63 #Theodoric
+	character = 175110 #Julis Nepos
+	character = 39 #Childeric
+	character = 19 #Syagrius
+	character = 93 #Genseric
+	character = 30 #Aiwarekis
+	#Interesting Vassals
+	character = 509 #Maitaka - Mithraic
+	character = 212851 #Agriulfum - Germanic
+	character = 187003 #Nikoteles - Hellenic
+	character = 109748 #Britomaros - Celtic
+	
+}
+bookmark =
+{
+	name = "BM_JULIUS_NEPOS"
+	desc = "BM_JULIUS_NEPOS_DESC"
+	date = 480.5.1
+
+	character = 55 # Odoacer
+	character = 70515 # Emperor Zenon
+	character = 175110 # Julius Nepos
+}
+bookmark =
+{
+	# name = "BM_THE_OLDER_GODS"
+	name = "BM_THE_MONGOLS"
+	desc = "BM_THE_OLDER_GODS_DESC"
+	date = 480.12.10
+
+	character = 55 # Odoacer
+	character = 70515 # Emperor Zenon
+	character = 30 # Visigoths 
+	character = 19 # Syagrius
+	character = 69 # Huns
+	character = 213 # Iberia
+	character = 191 # Gupta
+	character = 136 # Ghassanids
+}
+bookmark =
+{
+	#name = "BM_FRANKISH_STEEL"
+	name = "BM_100_YEARS_WAR"
+	desc = "BM_FRANKISH_STEEL_DESC"
+	date = 486.1.1
+
+	character = 40 # King Clovis
+	character = 70515 # Emperor Zenon
+}
+bookmark =
+{
+	name = "BM_FALLEN_GIANT"
+	desc = "BM_FALLEN_GIANT_DESC"
+	date = 511.11.28
+	
+	character = 106529 #King Childebert
+	character = 10076 #King Chlodomer
+	character = 106524 #King Theuderic
+	character = 106522 #King Chlotar
+}
+
+bookmark =
+{
+	name = "BM_GOTHIC_WARS"
+	desc = "BM_GOTHIC_WARS_DESC"
+	date = 535.1.1
+
+	character = 70512 # Emperor Justinian
+	character = 190215 # Ostrogoths 
+}
+bookmark =
+{
+	name = "BM_RULE_OF_DUKES"
+	desc = "BM_RULE_OF_DUKES_DESC"
+	date = 575.1.1
+
+	character = 31106 # Faroald Farualding 
+	character = 31089 # Zaban Zabaning
+}

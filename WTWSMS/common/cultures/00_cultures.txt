@@ -2,10 +2,10 @@
 # If adding new groups or cultures, make sure they are unique.
 
 north_germanic = {
-	graphical_culture = westerngfx
+	graphical_cultures = { westerngfx }
 	
 	norse = {
-		graphical_culture = norsegfx
+		graphical_cultures = { norsegfx }
 		
 		color = { 0.3 0.55 0.8 }
 		
@@ -47,9 +47,12 @@ north_germanic = {
 		mother_name_chance = 0
 
 		modifier = default_culture_modifier
+		
+		allow_looting = yes
+		seafarer = yes
 	}
 	auiones = {
-		graphical_culture = germangfx
+		graphical_cultures = { germangfx }
 		
 		color = { 0.9 0.9 0.9 }
 		
@@ -77,7 +80,7 @@ north_germanic = {
 		modifier = default_culture_modifier
 	}
 	swede = {
-		graphical_culture = norsegfx
+		graphical_cultures = { norsegfx }
 		
 		color = { 0.0 0.55 0.8 }
 		
@@ -118,7 +121,7 @@ north_germanic = {
 		modifier = default_culture_modifier
 	}
 	dani = {
-		graphical_culture = norsegfx
+		graphical_cultures = { norsegfx }
 		
 		color = { 0.5 0.85 1.0 }
 		
@@ -162,7 +165,7 @@ north_germanic = {
 		modifier = default_culture_modifier
 	}
 	dane = {
-		graphical_culture = norsegfx
+		graphical_cultures = { norsegfx }
 		
 		color = { 0.23 0.11 0.0 }
 		
@@ -207,7 +210,7 @@ north_germanic = {
 	}
 	
 	swedish = {
-		graphical_culture = norsegfx
+		graphical_cultures = { norsegfx }
 		
 		color = { 0.25 0.5 0.75 }
 		
@@ -245,9 +248,11 @@ north_germanic = {
 		mother_name_chance = 0
 
 		modifier = default_culture_modifier
+		
+		seafarer = yes
 	}
 	geatish = {
-		graphical_culture = norsegfx
+		graphical_cultures = { norsegfx }
 		
 		color = { 0.0 0.45 0.23 }
 		
@@ -284,7 +289,7 @@ north_germanic = {
 		modifier = default_culture_modifier
 	}
 	gutnish = {
-		graphical_culture = norsegfx
+		graphical_cultures = { norsegfx }
 		
 		color = { 0.0 0.65 0.43 }
 		
@@ -321,7 +326,7 @@ north_germanic = {
 		modifier = default_culture_modifier
 	}
 	norwegian = {
-		graphical_culture = norsegfx
+		graphical_cultures = { norsegfx }
 		
 		color = { 0.2 0.45 0.65 }
 		
@@ -348,9 +353,11 @@ north_germanic = {
 		prefix = no
 
 		modifier = default_culture_modifier
+		
+		seafarer = yes
 	}
 	danish = {
-		graphical_culture = norsegfx
+		graphical_cultures = { norsegfx }
 		
 		color = { 0.15 0.4 0.55 }
 		
@@ -386,9 +393,11 @@ north_germanic = {
 		pat_grm_name_chance = 10
 		mat_grm_name_chance = 50
 		mother_name_chance = 0
+		
+		seafarer = yes
 	}
 	jute = {
-		graphical_culture = norsegfx
+		graphical_cultures = { norsegfx }
 		
 		color = { 0.15 0.4 0.55 }
 		
@@ -422,14 +431,16 @@ north_germanic = {
 		pat_grm_name_chance = 10
 		mat_grm_name_chance = 50
 		mother_name_chance = 0
+		
+		seafarer = yes
 	}
 }
 
 central_germanic = {
-	graphical_culture = westerngfx
+	graphical_cultures = { germangfx }
 
 	german = {
-		graphical_culture = germangfx
+		graphical_cultures = { germangfx }
 		
 		color = { 0.49 0.41 0.24 }
 
@@ -471,7 +482,7 @@ central_germanic = {
 		modifier = default_culture_modifier
 	}
 	yiddish = {
-		graphical_culture = germangfx
+		graphical_cultures = { germangfx }
 		
 		color = { 0.49 0.41 0.24 }
 
@@ -505,7 +516,7 @@ central_germanic = {
 		modifier = default_culture_modifier
 	}
 	thuringian = {
-		graphical_culture = germangfx
+		graphical_cultures = { germangfx }
 		
 		color = { 0.75 0.59 0.28 }
 		
@@ -531,7 +542,7 @@ central_germanic = {
 		modifier = default_culture_modifier
 	}
 	old_saxon = {
-		graphical_culture = germangfx
+		graphical_cultures = { germangfx }
 		
 		color = { 0.31 0.26 0.17 }
 		
@@ -556,7 +567,7 @@ central_germanic = {
 		modifier = default_culture_modifier
 	}
 	bavarian = {
-		graphical_culture = germangfx
+		graphical_cultures = { germangfx }
 		
 		color = { 0.2 0.2 0.2 }
 
@@ -598,7 +609,7 @@ central_germanic = {
 		modifier = default_culture_modifier
 	}
 	lombard = {
-		graphical_culture = germangfx
+		graphical_cultures = { germangfx }
 		
 		color = { 0.6 0.6 0.8 }
 
@@ -649,7 +660,7 @@ central_germanic = {
 		modifier = default_culture_modifier
 	}
 	alastian = {
-		graphical_culture = germangfx
+		graphical_cultures = { germangfx }
 		
 		color = { 0.3 0.6 0.3 }
 
@@ -678,7 +689,7 @@ central_germanic = {
 		modifier = default_culture_modifier
 	}
 	low_german = {
-		graphical_culture = germangfx
+		graphical_cultures = { germangfx }
 		
 		color = { 0.6 0.6 0.6 }
 
@@ -707,7 +718,7 @@ central_germanic = {
 		modifier = default_culture_modifier
 	}	
 	warnic = {
-		graphical_culture = germangfx
+		graphical_cultures = { germangfx }
 		
 		color = { 0.23 0.63 0.23 }
 
@@ -736,7 +747,7 @@ central_germanic = {
 		modifier = default_culture_modifier
 	}
 	anglo = {
-		graphical_culture = germangfx
+		graphical_cultures = { germangfx }
 		
 		color = { 0.23 0.23 0.23 }
 
@@ -765,7 +776,7 @@ central_germanic = {
 		modifier = default_culture_modifier
 	}
 	alamannian = {
-		graphical_culture = germangfx
+		graphical_cultures = { germangfx }
 		graphical_unit_culture = western
 		
 		color = { 0.63 0.45 0.0 }
@@ -792,7 +803,7 @@ central_germanic = {
 			modifier = default_culture_modifier
 	}
 	bucinobantian = {
-		graphical_culture = germangfx
+		graphical_cultures = { germangfx }
 		graphical_unit_culture = western
 		
 		color = { 0.63 0.45 0.0 }
@@ -819,8 +830,7 @@ central_germanic = {
 			modifier = default_culture_modifier
 	}
 	burgundian = {
-		graphical_culture = occitangfx
-		second_graphical_culture = westerngfx
+		graphical_cultures = { occitangfx westerngfx }
 		
 		color = { 0.67 0.54 0.7 }
 
@@ -856,7 +866,7 @@ central_germanic = {
 	}
 	
 	berber_germanic = {
-		graphical_culture = germangfx
+		graphical_cultures = { germangfx }
 		
 		color = { 0.7 0.7 0.7 }
 
@@ -924,11 +934,10 @@ central_germanic = {
 }
 
 east_germanic = {
-	graphical_culture = westerngfx
+	graphical_cultures = { westerngfx }
 
 	crimean_gothic = {
-		graphical_culture = gothicgfx
-		second_graphical_culture = germangfx # Fallback type
+		graphical_cultures = { gothicgfx germangfx }
 		
 		color = { 0.19 0.20 0.27 }
 
@@ -963,7 +972,7 @@ east_germanic = {
 		modifier = default_culture_modifier
 	}
 	denziner = {
-		graphical_culture = norsegfx 
+		graphical_cultures = { norsegfx }
 		
 		color = { 0.19 0.20 0.27 }
 
@@ -998,7 +1007,7 @@ east_germanic = {
 		modifier = default_culture_modifier
 	}
 	lebus = {
-		graphical_culture = norsegfx 
+		graphical_cultures = { norsegfx }
 		
 		color = { 0.59 0.20 0.57 }
 
@@ -1033,7 +1042,7 @@ east_germanic = {
 		modifier = default_culture_modifier
 	}
 	gustow = {
-		graphical_culture = norsegfx 
+		graphical_cultures = { norsegfx }
 		
 		color = { 0.59 0.20 0.27 }
 
@@ -1068,7 +1077,7 @@ east_germanic = {
 		modifier = default_culture_modifier
 	}
 	vidivarii = {
-		graphical_culture = balticgfx 
+		graphical_cultures = { ugricgfx }
 		
 		color = { 0.19 0.60 0.27 }
 
@@ -1104,7 +1113,7 @@ east_germanic = {
 		modifier = default_culture_modifier
 	}
 	rygir = {
-		graphical_culture = norsegfx
+		graphical_cultures = { norsegfx }
 		
 		color = { 0.23 0.11 0.0 }
 		
@@ -1147,7 +1156,7 @@ east_germanic = {
 		modifier = default_culture_modifier
 	}
 	heruli = {
-		graphical_culture = norsegfx
+		graphical_cultures = { norsegfx }
 		
 		color = { 0.25 0.30 0.06 }
 
@@ -1182,8 +1191,7 @@ east_germanic = {
 		modifier = default_culture_modifier
 	}
 	skirian = {
-		graphical_culture = gothicgfx
-		second_graphical_culture = germangfx # Fallback type
+		graphical_cultures = { gothicgfx germangfx }
 		
 		color = { 0.25 0.30 0.06 }
 
@@ -1218,7 +1226,7 @@ east_germanic = {
 		modifier = default_culture_modifier
 	}
 	vandalic = {
-		graphical_culture = norsegfx
+		graphical_cultures = { norsegfx }
 		
 		color = { 1.0 0.57 0.0 }
 		
@@ -1262,8 +1270,7 @@ east_germanic = {
 		modifier = default_culture_modifier
 	}
 	ostrogothic = {
-		graphical_culture = gothicgfx
-		second_graphical_culture = germangfx # Fallback type
+		graphical_cultures = { gothicgfx germangfx }
 
 		color = { 0.12 0.08 0.004 }
 		
@@ -1292,7 +1299,7 @@ east_germanic = {
 		modifier = default_culture_modifier
 	}
 	old_bavarian = {
-		graphical_culture = norsegfx
+		graphical_cultures = { norsegfx }
 		
 		color = { 0.12 0.18 0.14 }
 		
@@ -1321,7 +1328,7 @@ east_germanic = {
 		modifier = default_culture_modifier
 	}
 	gothic = {
-		graphical_culture = norsegfx
+		graphical_cultures = { norsegfx }
 		
 		color = { 0.3 0.3 0.3}
 
@@ -1387,7 +1394,7 @@ east_germanic = {
 		modifier = default_culture_modifier
 	}
 	gepid = {
-		graphical_culture = norsegfx
+		graphical_cultures = { norsegfx }
 		
 		color = { 0.44 0.44 0.44 }
 
@@ -1455,10 +1462,10 @@ east_germanic = {
 }
 
 west_germanic = {
-	graphical_culture = westerngfx
+	graphical_cultures = { westerngfx }
 
 	english = {
-		graphical_culture = englishgfx
+		graphical_cultures = { englishgfx }
 		
 		color = { 0.8 0.2 0.2 }
 		
@@ -1487,7 +1494,7 @@ west_germanic = {
 		mother_name_chance = 5
 	}
 	swabian = {
-		graphical_culture = germangfx
+		graphical_cultures = { germangfx }
 		
 		color = { 0.43 0.25 0.0 }
 
@@ -1515,7 +1522,7 @@ west_germanic = {
 			modifier = default_culture_modifier
 	}
 	franconian = {
-		graphical_culture = germangfx
+		graphical_cultures = { germangfx }
 		
 		color = { 0.49 0.41 0.24 }
 
@@ -1557,7 +1564,7 @@ west_germanic = {
 		modifier = default_culture_modifier
 	}
 	chatti = {
-		graphical_culture = germangfx
+		graphical_cultures = { germangfx }
 		
 		color = { 0.1 0.2 0.2 }
 		
@@ -1603,7 +1610,7 @@ west_germanic = {
 		modifier = default_culture_modifier
 	}
 	old_frankish = {
-		graphical_culture = germangfx
+		graphical_cultures = { germangfx }
 		
 		color = { 0.6 0.6 0.2 }
 		
@@ -1650,7 +1657,7 @@ west_germanic = {
 	}
 
 	suebi = {
-		graphical_culture = germangfx
+		graphical_cultures = { germangfx }
 		
 		color = { 0.7 0.7 0.7 }
 
@@ -1692,7 +1699,7 @@ west_germanic = {
 		modifier = default_culture_modifier
 	}
 	cheruscii = {
-		graphical_culture = germangfx
+		graphical_cultures = { germangfx }
 		
 		color = { 0.4 0.6 0.8 }
 		
@@ -1720,7 +1727,7 @@ west_germanic = {
 		modifier = default_culture_modifier
 	}
 	macromanni = {
-		graphical_culture = germangfx
+		graphical_cultures = { germangfx }
 		
 		color = { 0.8 0.2 0.2 }
 		
@@ -1748,7 +1755,7 @@ west_germanic = {
 		modifier = default_culture_modifier
 	}
 	bari = {
-		graphical_culture = germangfx
+		graphical_cultures = { germangfx }
 		
 		color = { 0.2 0.2 0.8 }
 		
@@ -1776,7 +1783,7 @@ west_germanic = {
 		modifier = default_culture_modifier
 	}
 	brittonic_jute = {
-		graphical_culture = saxongfx
+		graphical_cultures = { saxongfx }
 		
 		color = { 0.0 0.4 0.55 }
 		
@@ -1812,7 +1819,7 @@ west_germanic = {
 		mother_name_chance = 0
 	}
 	saxon = {
-		graphical_culture = saxongfx
+		graphical_cultures = { saxongfx }
 		
 		color = { 0.8 0.3 0.3 }
 		
@@ -1864,7 +1871,7 @@ west_germanic = {
 	}
 	
 	frisian = {
-		graphical_culture = germangfx
+		graphical_cultures = { germangfx }
 		graphical_unit_culture = western
 		
 		color = { 0.86 0.29 0.07 }
@@ -1909,7 +1916,7 @@ west_germanic = {
 	}
 	
 	dutch = {
-		graphical_culture = germangfx
+		graphical_cultures = { germangfx }
 		graphical_unit_culture = western
 		
 		color = { 0.96 0.39 0.08 }
@@ -1954,7 +1961,7 @@ west_germanic = {
 	}
 	
 	anglo_frisian = {
-		graphical_culture = englishgfx
+		graphical_cultures = { englishgfx }
 		
 		color = { 0.34 0.48 0.24 }
 		
@@ -1997,7 +2004,7 @@ west_germanic = {
 		mother_name_chance = 5
 	}
 	old_frisian = {
-		graphical_culture = saxongfx
+		graphical_cultures = { saxongfx }
 		
 		color = { 0.34 0.48 0.24 }
 		
@@ -2038,10 +2045,10 @@ west_germanic = {
 }
 
 latin = {
-	graphical_culture = westerngfx
+	graphical_cultures = { westerngfx }
 
 	frankish = {
-		graphical_culture = frankishgfx
+		graphical_cultures = { frankishgfx }
 		
 		color = { 0.8 0.8 0.2 }
 		male_names = {
@@ -2081,9 +2088,7 @@ latin = {
 		mother_name_chance = 10
 	}	
 	visigothic = {
-		graphical_culture = gothicgfx
-		second_graphical_culture = norsegfx # Fallback type
-		
+		graphical_cultures = { gothicgfx norsegfx }
 		
 		color = { 0.03 0.06 0.26 }
 		
@@ -2127,8 +2132,7 @@ latin = {
 		modifier = default_culture_modifier
 	}
 	gothi = {
-		graphical_culture = southerngfx
-		second_graphical_culture = mediterraneangfx # Fallback type
+		graphical_cultures = { southerngfx mediterraneangfx }
 		
 		color = { 0.55 0.55 0.15 }
 
@@ -2167,8 +2171,7 @@ latin = {
 	}
 
 	berjuldi = {
-		graphical_culture = occitangfx
-		second_graphical_culture = westerngfx
+		graphical_cultures = { occitangfx westerngfx }
 		
 		color = { 0.87 0.74 0.9 }
 
@@ -2203,7 +2206,7 @@ latin = {
 		modifier = default_culture_modifier
 	}
 	thurins = {
-		graphical_culture = norsegfx
+		graphical_cultures = { norsegfx }
 		
 		color = { 0.55 0.39 0.08 }
 		
@@ -2229,7 +2232,7 @@ latin = {
 		modifier = default_culture_modifier
 	}
 	alamanici = {
-		graphical_culture = norsegfx
+		graphical_cultures = { norsegfx }
 		graphical_unit_culture = western
 		
 		color = { 0.83 0.65 0.20 }
@@ -2256,7 +2259,7 @@ latin = {
 		modifier = default_culture_modifier
 	}
 	romano_frank = {
-		graphical_culture = frankishgfx
+		graphical_cultures = { frankishgfx }
 		
 		color = { 0.6 0.6 0.0 }
 		male_names = {
@@ -2296,10 +2299,9 @@ latin = {
 		mother_name_chance = 10
 	}
 	african_romance = { # Berber
-		graphical_culture = arabicgfx
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { arabicgfx muslimgfx }
 		
-	   	 color = { 0.9 0.6 0.2 }
+		color = { 0.9 0.6 0.2 }
 
 		male_names = {
 			Abdmelcar_Abdmelqart Adrinu_Adrian Albinu_Albinus Albu_Albus Alexsandru_Alexander Alixsandru_Alexander Ambrosu_Ambrose Andrea_Andrew Andreu_Andrew
@@ -2342,8 +2344,7 @@ latin = {
 		mother_name_chance = 5
  	}
 	sardinian = {
-		graphical_culture = southerngfx
-		second_graphical_culture = mediterraneangfx # Fallback type
+		graphical_cultures = { southerngfx mediterraneangfx }
 		
 		color = { 0.75 0.75 0.15 }
 
@@ -2365,9 +2366,89 @@ latin = {
 		mat_grm_name_chance = 40
 		mother_name_chance = 5
 		}
+	noricroman = {
+		graphical_cultures = { romangfx westerngfx }
+		
+		color = {  0.48 .98 0.0  }
+
+		male_names = {
+            		Aaron_Aaron Adiatullus_Adiatullos Admatus_Admatos Adnamatus_Adnamatos Adnamus_Adnamos Adsedus_Adsedos Agapetus_Agapetos
+            		Ageleius_Ageleios Alexander_Alexandros Alexius_alexios Allo_Allo Amadeus_Amadeus Amandus_Amandus
+            		Anaeus_Anaeos Anastasius_Anastastios Andreas_Andrew Anthemius_Anthemios Antonius_Anthony Arimanus_Ariomanus Ario_Ario
+            		Ariomanus_Ariomanos Ateboduus_Ateboduos Ategnatus_Ategnatos Atemerus_Atemeros Aterus_Atera Atevalus_Atevalos Atiantus_Atiantos 			Atpomarus_Atpomaros
+            		Attius_Atto Atto_Atto Atuco_Atucos Atucus_Atucos Atuius_Atuios Bato_Bato
+            		Benignus_Benignus Blaus_Blavos Bonifacius_Boniface Bonosus_Bonosus Bussumarus_Bussumaros Caesarius_Caesarius Callistus_Kallistos
+            		Camaius_Camaios Cammius_Cammios Candalio_Candalon Charidemus_Charidemos
+            		Christophorus_Christopher Citatus_Citatos Clemens_Clemens Clevas_Clevvon Clevvo_Clevvon Coelestinus_Celestine Comatus_Comatos
+            		Constans_Constans Constantinus_Constantine Constantius_Constant Corbus_Corbos Cotulus_Cotulos Counertus_Counertos 			Crescens_Crescens Crouta_Crouta
+            		Cupitus_Cupitus Dabro_Dabro Daniel_Daniel Darbius_Darbios Dasius_Dasios Deuso_Deusos Deusus_Deusos Diastullus_Diastullos 			Dionysius_Dionysios
+            		Docnimarus_Docnimaros Domitius_Domitius Donco_Donco Dunus_Dunos Eligius_Eligius Eliomarus_Eliomaros Elvissus_Elvissos 			Eugenius_eugene
+            		Euphemius_Euphemios Eusebius_Eusebios Eutychianus_Eutychianos Evangelus_Evangel Excingomarus_Excingomaros
+            		Faustus_Faustus Felix_Felix Flavius_Flavius Florianus_Florianus Florentius_Florence Gabriel_Gabriel
+            		Georgius_George Germanus_Germanus Goutus_Goutos Gregorius_Gregory Heracles_Herakles Hieronymus_Hieronymos
+            		Hilarius_Hilary Honorius_Honorius Iacobus_jacob Iantullus_Iantullos Iantumarus_Iantumaros Icco_Icco Innocentius_Innocent 			Iohannes_john
+            		Iomatius_Iomatios Iosephus_joseph Itto_Itto Itucus_Itucos Itulus_Itulos Iulianus_Julian Iulius_Julius
+            		Iustinus_Justin Iustus_Iustus Laurentius_Laurence Lavus_Lavos Leo_Leo Leontius_Leontios Liberius_Liberius Liccaius_Liccaios 			Lotto_Lotto Lucas_luke
+            		Lucco_Lucco Lucius_Lucius Maleio_Maleio Marcianus_Marcianus Marcus_Mark
+            		Marinus_Marinus Maro_Maro Martialis_Martial Martinus_Martin Matthias_Matthew Maximianus_Maximianus Maximus_Maximus
+            		Messor_Messor Mocio_Mocio Mogetius_Mogetios Mogio_Mocio Mommus_Mommos
+            		Monnus_Monnos Montissius_Montissios Mosgaitus_Mosgaitos Muntissius_Montissios Nemeto_Nemeto Nepos_Nepos Nertomarus_Nertomaros 			Nivius_Nivios Nicolaus_Nicholas
+            		Nonnus_Nonnos Numerius_Numerius Orestes_Orestes Pagadanus_Pagadanus
+            		Palumbus_Palumbos Pametus_Pametos Panes_Panes Patalus_Patale Paterio_Paterio Paulinus_Pauline Paulus_Paul Peregrinus_Peregrinus 			Petrus_peter
+            		Phillipus_Philip Pientissimus_Pientissimus Potentinus_Pontentinus
+            		Pusinnus_Pusinnos Quirinus_Quirinus Redsatus_Redsatos Ressatus_Redsatos
+            		Ressimarus_Redsomaros Restumaros_Redsomaros Romaeus_Romaeus Romanus_Roman Rufus_Rufus Rumo_Rumo Ruscus_Ruscos
+            		Sabinus_Sabinus Sacer_Sacer Salvianus_Salvianus Sammus_Sammos Satullus_Satullos Saturninus_Saturninus
+            		Silvester_Silvester Simplicius_Simplicius Stephanus_Stephanos
+            		Suttihus_Suttihos Symmachus_Symmachos Temaio_Temaio Theodorus_Theodore Theodosius_Theodosios Theophilus_Theophilos
+            		Titus_Titus Trauseus_Trauseus Tromperus_Tromperos Ursus_Ursus
+            		Valentinianus_Valentinianus Valentinus_Valentine Valerianus_Valerianus Vannius_Vannios Veitor_Veitor Velso_Velson 			Venimarus_Venimaros Veranus_Veranus
+            		Vercaius_Vercaios Vercombogius_Vercombogios Verus_Verus Vibenus_Vibenos Victor_Victor Vigilius_Vigilius Vindillus_Vindillos
+            		Vindo_Vindos Vindus_VindosVitalianus_Vitalianus Vogitoutus_Vogitoutos Volsenus_Volsenos
+        	}
+		female_names = {
+            		Admata_Admata Adnama_Adnama Aeta_Aeta Agatha_Agatha Aia_Aiu Amadea_Amadea Amanda_Amanda Andrea_Andrea Angela_Angela 			Atebodua_Atebodua
+            		Ateduna_Ateduna Ategenta_Ategenta Ategnata_Ategnata Atta_Attu Atuia_Atuia Bateia_Bateia Batelis_Batelis Beatrix_Beatrix 			Benedicta_Benedicta
+            		Benigna_Benigna Bindo_Binhdo Blavia_Blava Candala_Candala Cemeia_Cemeia Charito_Charito Christiana_Christiana Citata_Citata
+            		Clara_Clara Claudia_Claudia Clementia_Clementia Clementina_Clementine Coma_Coma Constantia_Constantia Constantina_Constantina
+            		Cota_Cotu Cotula_Cotula Counerta_Counerta Couruna_Couruna Curena_Curena Darbosa_Darbosa Dasto_Dasto
+            		Deusa_Deura Diana_Diana Dubna_Dubna Eligia_Eligia Eliomara_Eliomara
+            		Elvima_Elvima Elvissa_Elvissa Epantia_Pantia Eudocia_Eudokia Eugenia_Eugenie Eusebia_Eusebia Exapia_Exapia Fausta_Fausta
+            		Felicia_Felicia
+            		Galla_Galla Gregoria_Gregoria Helena_Helen Herennia_Herennia
+            		Iantulla_Iantulla Iantumara_Iantumara Ituca_Ituca Iulia_Julia Iuliana_Juliana Iustina_Justine
+            		Liberia_Liberia Litugena_Litugena Lucia_Lucia Magiona_Magiona
+            		Marcellina_Marceline Marcia_Marcia Maria_mary Martina_Martina Matrona_Matrona
+            		Melania_Melanie Melissa_Melissa Menitta_Menitta Messia_Messia
+            		Modesta_Modesta Mogetia_Mogetia Mogia_Mogia Monna_Monna Mussa_Mussa Natalia_Natalie Nemeta_Nemeta Nonna_Nonna Obilia_Obilia
+            		Ota_Otu Pameta_Pameta Patricia_Patricia Paula_Paula Paulina_Paulina Peregrina_Peregrina Peta_Petu Petra_Petra
+            		Petronia_Petronia Pientissima_Pientissima Procula_Procula Prudentia_Prudence Renata_Renata
+            		Restumara_Redsomara Romana_Romana Ruma_Ruma Salvatrix_Salvatrix Samma_Samma Satulla_Satulla
+            		Saturnina_Saturnina Seraphina_Seraphina Serena_Serena Sutta_Sutta Theodora_Theodora Theodosia_Theodosia
+            		Ursa_Ursa Valeria_Valeria Velsonia_Velsonia Venimara_Venimara Vercilla_Vercilla Verina_Verina
+            		Veronica_Veronica Vibena_Vibena Victoria_Victoria Vindilla_Vindilla Virginia_Virginia Viviana_Vivian Voltisema_Voltisema
+        	}
+
+		from_dynasty_prefix = "ad "
+		#male_patronym = "filius "
+		#female_patronym = "filia "
+		#prefix = yes
+		
+		modifier = default_culture_modifier
+		
+		disinherit_from_blinding = yes
+
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+	}
+	
 	romano_gallic = {
-		graphical_culture = romangfx
-		second_graphical_culture = westerngfx
+		graphical_cultures = { romangfx westerngfx }
 		
 		color = {  0.68 .68 0.0  }
 
@@ -2412,7 +2493,7 @@ latin = {
 		mother_name_chance = 0
 	}
 	arpitanisch = {
-		graphical_culture = frankishgfx
+		graphical_cultures = { frankishgfx }
 		
 		color = { 0.2 0.8 0.8 }
 		male_names = {
@@ -2440,7 +2521,7 @@ latin = {
 		modifier = default_culture_modifier
 	}
 	picard = {
-		graphical_culture = frankishgfx
+		graphical_cultures = { frankishgfx }
 		
 		color = { 0.7 0.7 0.1 }
 		male_names = {
@@ -2481,7 +2562,7 @@ latin = {
 	}
 
 	walloon = {
-		graphical_culture = frankishgfx
+		graphical_cultures = { frankishgfx }
 		
 		color = { 0.6 0.6 0.0 }
 		male_names = {
@@ -2522,7 +2603,7 @@ latin = {
 	}
 
 	savoyard= {
-		graphical_culture = frankishgfx
+		graphical_cultures = { frankishgfx }
 		
 		color = { 0.77 0.68 0.34 }
 		male_names = {
@@ -2562,7 +2643,7 @@ latin = {
 		mother_name_chance = 10
 	}
 	norman = {
-		graphical_culture = normangfx
+		graphical_cultures = { normangfx }
 
 		color = { 0.8 0.7 0.1 }
 		
@@ -2598,10 +2679,11 @@ latin = {
 		mother_name_chance = 5
 
 		modifier = default_culture_modifier
+		
+		seafarer = yes
 	}
 	italian = {
-		graphical_culture = southerngfx
-		second_graphical_culture = mediterraneangfx # Fallback type
+		graphical_cultures = { italiangfx mediterraneangfx }
 		
 		color = { 0.95 0.95 0.75 }
 
@@ -2649,8 +2731,7 @@ latin = {
 		mother_name_chance = 5
 	}
 	venetian = { # Veneziano
-		graphical_culture = southerngfx
-		second_graphical_culture = mediterraneangfx # Fallback type
+		graphical_cultures = { southerngfx mediterraneangfx }
 		
 		color = { 0.75 0.75 0.15 }
 
@@ -2675,8 +2756,7 @@ latin = {
 		modifier = default_culture_modifier
 		}
 	ladin = {
-		graphical_culture = southerngfx
-		second_graphical_culture = mediterraneangfx # Fallback type
+		graphical_cultures = { southerngfx mediterraneangfx }
 		
 		color = { 0.54 0.35 0.75 }
 
@@ -2708,8 +2788,7 @@ latin = {
 		mother_name_chance = 5
 	}
 	romano_british = {
-		graphical_culture = britongfx
-		second_graphical_culture = celticgfx
+		graphical_cultures = { britongfx celticgfx }
 		
 		color = { 0.49 0.815 0.82 }
 
@@ -2766,8 +2845,7 @@ latin = {
 		mother_name_chance = 0
 	}
 	romansh = {
-		graphical_culture = southerngfx
-		second_graphical_culture = mediterraneangfx # Fallback type
+		graphical_cultures = { southerngfx mediterraneangfx }
 		
 		color = { 0.97 0.35 0.35 }
 
@@ -2794,7 +2872,7 @@ latin = {
 		mother_name_chance = 5
 	}
 	romano_persian = {
-		graphical_culture = persiangfx
+		graphical_cultures = { persiangfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.8 0.4 0.4 }
@@ -2840,40 +2918,7 @@ latin = {
 		modifier = default_culture_modifier
 	}
 	sicilian = {
-		graphical_culture = southerngfx
-		second_graphical_culture = mediterraneangfx # Fallback type
-		
-		color = { 0.4 0.2 0.2 }
-
-		male_names = {
-			Adam_Adam Andria Bartolu_Bartolomeus Besar Boianu Boris Branimiru Castimiru Danilu_Daniel Dmitar Dobromiru Dragan Dragomiru Drzislavu Duiammu Dumi Filipu_Philip Gaspari Gheorghi_George Grigori_Gregory
-			Cranislavu Crivoi Gor Oanu_John Vanni_John Vanis Gitei Karlu_Charles Kolomanu_Koloman Kresimiru Ladislavu Ludevitu Lutomislu Lovru Matei_Matthew Miccalu Milman Mislavu Mutimiru
-			Nikolitu_Nicholas Ognieni Petar_Peter Procor Radomiru Ratimiru Sebeslavu Seslavu Slaviccu Stanislavu_Stanislav Stepanu Silvanu Teodoru Tomislavu Tvrdoslavu Tvrtku Ulfu_Ulf Vidu Vitomiru Vlaicu
-			Vukanu Zvonimiru
-		}
-		female_names = {
-			Adriana Anna_Anna Borislava Cededa Doroteia_Dorothy Ekaterina_Catherine Helena_Helen Adviga Ovana Kera Ladika Maria_Maria Miccaela Nada Petra Viola_Yolanda Adranka Mare
-			Antonia Capeka Dragana Dubravka Emilia_Emily Gordana Agoda Elena Elka Lucia_Lucia Katalin_Catherine Mariana Mirana Mirna Moica Natalia Natacia
-			Rieka Silvia Snezana Sofia_Sophia Suzana_Susana Svetlana Suronia Tatiana Ticcana Valeria Vedrana Visnia Viekoslava Zlata Zvonimira
-		}
-		
-		from_dynasty_prefix = "du "
-
-		modifier = default_culture_modifier
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 40
-		mat_grf_name_chance = 10
-		father_name_chance = 15
-		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 15
-		mat_grm_name_chance = 40
-		mother_name_chance = 5
-		
-	}
-	sicilian = {
-		graphical_culture = southerngfx
-		second_graphical_culture = mediterraneangfx # Fallback type
+		graphical_cultures = { southerngfx mediterraneangfx }
 		
 		color = { 0.54 0.95 0.55 }
 
@@ -2921,8 +2966,7 @@ latin = {
 		mother_name_chance = 5
 	}
 	romano_aramean = {
-		graphical_culture = byzantinegfx 
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { byzantinegfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.85 0.3 0.3 }
@@ -2977,8 +3021,7 @@ latin = {
 		modifier = default_culture_modifier
 	}
 	dalmatian = {
-		graphical_culture = romangfx
-		second_graphical_culture = occitangfx # Fallback type
+		graphical_cultures = { romangfx occitangfx }
 		
 		color = { 0.8 0.8 0.2 }
 
@@ -3012,8 +3055,7 @@ latin = {
 		mother_name_chance = 10
 	}
 	maltanesse = {
-		graphical_culture = romangfx
-		second_graphical_culture = occitangfx # Fallback type
+		graphical_cultures = { romangfx occitangfx }
 		
 		color = { 0.7 0.2 0.2 }
 
@@ -3061,7 +3103,7 @@ latin = {
 		mother_name_chance = 5
 	}
 	occitan = {
-		graphical_culture = occitangfx
+		graphical_cultures = { occitangfx }
 		
 		color = { 0.75 0.75 0.3 }
 
@@ -3100,8 +3142,7 @@ latin = {
 		mother_name_chance = 5
 	}
 	roman = {
-		graphical_culture = romangfx
-		second_graphical_culture = occitangfx # Fallback type
+		graphical_cultures = { romangfx occitangfx }
 		
 		color = { 0.63 0 0 }
 
@@ -3142,8 +3183,7 @@ latin = {
 		modifier = default_culture_modifier
 	}
 	romano_vandalic = {
-		graphical_culture = gothicgfx
-		second_graphical_culture = occitangfx # Fallback type
+		graphical_cultures = { gothicgfx occitangfx }
 		
 		color = { 0.63 1.0 0 }
 
@@ -3184,8 +3224,7 @@ latin = {
 		modifier = default_culture_modifier
 	}
 	latin = {
-		graphical_culture = romangfx
-		second_graphical_culture = occitangfx # Fallback type
+		graphical_cultures = { romangfx occitangfx }
 		
 		color = { 1.0 0.9 0.4 }
 
@@ -3226,8 +3265,7 @@ latin = {
 		modifier = default_culture_modifier
 	}
 	thraco_roman = {
-		graphical_culture = romangfx
-		second_graphical_culture = occitangfx # Fallback type
+		graphical_cultures = { romangfx occitangfx }
 		
 		color = { 1.0 0.9 0.4 }
 
@@ -3268,8 +3306,7 @@ latin = {
 		modifier = default_culture_modifier
 	}
 	illyro_roman = {
-		graphical_culture = romangfx
-		second_graphical_culture = occitangfx # Fallback type
+		graphical_cultures = { romangfx occitangfx }
 		
 		color = { 0.0 0.3 0.6 }
 
@@ -3310,10 +3347,9 @@ latin = {
 		modifier = default_culture_modifier
 	}
 	pannonian = {
-		graphical_culture = romangfx
-		second_graphical_culture = occitangfx # Fallback type
+		graphical_cultures = { romangfx occitangfx }
 		
-		color = { 2.0 0.9 1.4 }
+		color = { 0.2 0.9 0.14 }
 
 		male_names = {
 			Emilian Aemilius Aetius Albinus Alexander_Alexander Anastasius_Anastasius Anicius Annius Antoninus Antonius_Antonius Arcadius Aurelian Aurelius
@@ -3352,8 +3388,7 @@ latin = {
 		modifier = default_culture_modifier
 	}
 	romano_hispanic = {
-		graphical_culture = romangfx
-		second_graphical_culture = occitangfx # Fallback type
+		graphical_cultures = { romangfx occitangfx }
 		
 		color = { 0.5 0.4 0.0 }
 
@@ -3394,8 +3429,7 @@ latin = {
 		modifier = default_culture_modifier
 	}
 	romano_gothic = {
-		graphical_culture = gothicgfx
-		second_graphical_culture = norsegfx # Fallback type
+		graphical_cultures = { gothicgfx norsegfx }
 		
 		color = { 0.9 0.7 0.6 }
 
@@ -3479,11 +3513,10 @@ latin = {
 	}
 }
 torrean_group = {
-	graphical_culture = occitangfx
+	graphical_cultures = { occitangfx }
 
 	corsican = {
-		graphical_culture = romangfx
-		second_graphical_culture = occitangfx # Fallback type
+		graphical_cultures = { romangfx occitangfx }
 		
 		color = { 0.94 0.45 0.55 }
 
@@ -3514,10 +3547,10 @@ torrean_group = {
 	}
 }
 vasconic = {
-	graphical_culture = occitangfx
+	graphical_cultures = { occitangfx }
 
 	basque = {
-		graphical_culture = occitangfx
+		graphical_cultures = { occitangfx }
 		
 		color = { 0.55 0.42 0.04 }
 
@@ -3546,7 +3579,7 @@ vasconic = {
 		modifier = default_culture_modifier
 	}	
 	aquitani = {
-		graphical_culture = italiangfx
+		graphical_cultures = { occitangfx }
 		
 		color = { 0.7 0.7 0.3 }
 		
@@ -3561,7 +3594,7 @@ vasconic = {
 		modifier = default_culture_modifier
 	}
 	vasconian = {
-		graphical_culture = italiangfx
+		graphical_cultures = { occitangfx }
 		
 		color = { 0.7 0.7 0.3 }
 		
@@ -3576,7 +3609,7 @@ vasconic = {
 		modifier = default_culture_modifier
 	}
 	paleo_iberian = {
-		graphical_culture = occitangfx
+		graphical_cultures = { occitangfx }
 
 		color = { 0.7 0.5 0.7 }
 		male_names = {
@@ -3609,12 +3642,11 @@ vasconic = {
 }
 
 iberian = {
-	graphical_culture = occitangfx
+	graphical_cultures = { occitangfx }
 
 	
 	castillan = {
-		graphical_culture = southerngfx
-		second_graphical_culture = mediterraneangfx # Fallback type
+		graphical_cultures = { southerngfx mediterraneangfx }
 		
 		color = { 0.95 0.82 0.09 }
 
@@ -3649,8 +3681,7 @@ iberian = {
 		modifier = default_culture_modifier
 	}
 	leonese = {
-		graphical_culture = southerngfx
-		second_graphical_culture = mediterraneangfx # Fallback type
+		graphical_cultures = { southerngfx mediterraneangfx }
 		
 		color = { 0.7 0.4 0.4 }
 
@@ -3683,8 +3714,7 @@ iberian = {
 		modifier = default_culture_modifier
 	}
 	catalan = {
-		graphical_culture = southerngfx
-		second_graphical_culture = mediterraneangfx # Fallback type
+		graphical_cultures = { southerngfx mediterraneangfx }
 		
 		color = { 0.85 0.75 0.08 }
 
@@ -3713,8 +3743,7 @@ iberian = {
 		modifier = default_culture_modifier
 	}
 	portuguese = {
-		graphical_culture = southerngfx
-		second_graphical_culture = mediterraneangfx # Fallback type
+		graphical_cultures = { southerngfx mediterraneangfx }
 		
 		color = { 0.75 0.67 0.07 }
 
@@ -3746,10 +3775,10 @@ iberian = {
 }
 
 caucasian = {
-	graphical_culture = byzantinegfx
+	graphical_cultures = { byzantinegfx }
 
 	armenian = {
-		graphical_culture = byzantinegfx
+		graphical_cultures = { byzantinegfx }
 		
 		color = { 0.5 0.2 0.5 }
 
@@ -3771,7 +3800,7 @@ caucasian = {
 		modifier = default_culture_modifier
 	}
 	caucasian_albanian = {
-		graphical_culture = byzantinegfx
+		graphical_cultures = { byzantinegfx }
 		
 		color = { 0.7 0.5 0.5 }
 
@@ -3797,7 +3826,7 @@ caucasian = {
 		modifier = default_culture_modifier
 	}
 	corduenian = {
-		graphical_culture = byzantinegfx
+		graphical_cultures = { byzantinegfx }
 		
 		color = { 0.7 0.4 0.7 }
 
@@ -3819,7 +3848,7 @@ caucasian = {
 		modifier = default_culture_modifier
 	}
 	aghbanian = {
-		graphical_culture = byzantinegfx
+		graphical_cultures = { byzantinegfx }
 		
 		color = { 0.5 0.2 0.5 }
 
@@ -3846,7 +3875,7 @@ caucasian = {
 		modifier = default_culture_modifier
 	}
 	abaza = {
-		graphical_culture = byzantinegfx
+		graphical_cultures = { byzantinegfx }
 		
 		color = { 0.3 0.2 0.5 }
 
@@ -3873,7 +3902,7 @@ caucasian = {
 		modifier = default_culture_modifier
 	}
 	adyghes = {
-		graphical_culture = byzantinegfx
+		graphical_cultures = { byzantinegfx }
 		
 		color = { 0.6 0.3 0.8 }
 
@@ -3899,7 +3928,7 @@ caucasian = {
 		modifier = default_culture_modifier
 	}
 	georgian = {
-		graphical_culture = byzantinegfx
+		graphical_cultures = { byzantinegfx }
 		
 		color = { 0.6 0.3 0.8 }
 
@@ -3925,7 +3954,7 @@ caucasian = {
 		modifier = default_culture_modifier
 	}
 	colchiscan = {
-		graphical_culture = byzantinegfx
+		graphical_cultures = { byzantinegfx }
 		
 		color = { 0.6 0.3 0.8 }
 
@@ -3953,11 +3982,11 @@ caucasian = {
 }
 
 byzantine = {
-	graphical_culture = byzantinegfx
+	graphical_cultures = { byzantinegfx }
 
 	
 	aeolian = {
-		graphical_culture = byzantinegfx
+		graphical_cultures = { byzantinegfx }
 		
 		color = { 0.8 0.2 0.2 }
 		
@@ -3985,8 +4014,7 @@ byzantine = {
 		mother_name_chance = 5
 	}
 	helleno_aramean = {
-		graphical_culture = arabicgfx		
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { arabicgfx muslimgfx }
 		
 		color = { 0.2 0.25 0.2 }
 
@@ -4011,7 +4039,7 @@ byzantine = {
 		modifier = default_culture_modifier
 	}
 	greek = {
-		graphical_culture = byzantinegfx
+		graphical_cultures = { byzantinegfx }
 		
 		color = { 0.8 0.3 0.8 }
 
@@ -4051,8 +4079,7 @@ byzantine = {
 		modifier = default_culture_modifier
 	}
 	greek_gothic = {
-		graphical_culture = gothicgfx
-		second_graphical_culture = norsegfx # Fallback type
+		graphical_cultures = { gothicgfx norsegfx }
 
 		color = { 0.4 0.3 0.9 }
 
@@ -4138,7 +4165,7 @@ byzantine = {
 		modifier = default_culture_modifier
 	}
 	greek_persian = {
-		graphical_culture = byzantinegfx
+		graphical_cultures = { byzantinegfx }
 		
 		color = { 0.8 0.7 0.4 }
 
@@ -4175,7 +4202,7 @@ byzantine = {
 		modifier = default_culture_modifier
 	}
 	isaurian_persian = {
-		graphical_culture = byzantinegfx
+		graphical_cultures = { byzantinegfx }
 		
 		color = { 0.5 0.4 0.1 }
 
@@ -4212,7 +4239,7 @@ byzantine = {
 		modifier = default_culture_modifier
 	}
 	grecco_axumite = {
-		graphical_culture = africangfx
+		graphical_cultures = { africangfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.35 0.7 0.25 }
@@ -4238,7 +4265,7 @@ byzantine = {
 		modifier = default_culture_modifier
 	}
 	bosporan = {
-		graphical_culture = byzantinegfx
+		graphical_cultures = { byzantinegfx }
 		
 		color = { 0.0 0.3 0.8 }
 
@@ -4278,7 +4305,7 @@ byzantine = {
 		modifier = default_culture_modifier
 	}
 	pontic = {
-		graphical_culture = byzantinegfx
+		graphical_cultures = { byzantinegfx }
 		
 		color = { 1.0 0.5 1.0 }
 
@@ -4318,7 +4345,7 @@ byzantine = {
 		modifier = default_culture_modifier
 	}
 	tsakonian = {
-		graphical_culture = byzantinegfx
+		graphical_cultures = { byzantinegfx }
 		
 		color = { 1.0 0.4 0.4 }
 
@@ -4358,7 +4385,7 @@ byzantine = {
 		modifier = default_culture_modifier
 	}
 	spartan = {
-		graphical_culture = byzantinegfx
+		graphical_cultures = { byzantinegfx }
 		
 		color = { 1.0 0.4 0.4 }
 
@@ -4398,7 +4425,7 @@ byzantine = {
 		modifier = default_culture_modifier
 	}
 	massalian = {
-		graphical_culture = byzantinegfx
+		graphical_cultures = { byzantinegfx }
 		
 		color = { 0.1 0.8 0.4 }
 
@@ -4438,7 +4465,7 @@ byzantine = {
 		modifier = default_culture_modifier
 	}
 	helleno_thracian = {
-		graphical_culture = byzantinegfx
+		graphical_cultures = { byzantinegfx }
 		
 		color = { 0.8 0.4 0.4 }
 
@@ -4484,10 +4511,10 @@ byzantine = {
 }
 
 continental_celtic = {
-	graphical_culture = westerngfx
+	graphical_cultures = { westerngfx }
 
 	gallic = {
-		graphical_culture = frankishgfx
+		graphical_cultures = { frankishgfx }
 
 		color = { 0.07 0.48 0.137 }
 		male_names = {
@@ -4530,7 +4557,7 @@ continental_celtic = {
 		modifier = default_culture_modifier
 	}
 	astures = {
-		graphical_culture = frankishgfx
+		graphical_cultures = { frankishgfx }
 
 		color = { 0.7 0.5 0.2 }
 		male_names = {
@@ -4559,7 +4586,7 @@ continental_celtic = {
 		modifier = default_culture_modifier
 	}
 	galician = {
-		graphical_culture = occitangfx
+		graphical_cultures = { occitangfx }
 		
 		color = { 0.37 0.4 0.24 }
 		
@@ -4583,7 +4610,7 @@ continental_celtic = {
 		mother_name_chance = 5
 	}
 	east_gallic = {
-		graphical_culture = occitangfx
+		graphical_cultures = { occitangfx }
 		
 		color = { 0.37 0.4 0.24 }
 		
@@ -4609,7 +4636,7 @@ continental_celtic = {
 	
 
 	armorican = {
-		graphical_culture = celticgfx
+		graphical_cultures = { celticgfx }
 		
 		color = { 0.45 0.91 0.0 }
 		
@@ -4648,24 +4675,40 @@ continental_celtic = {
 
 	}
 	galatian = {
-		graphical_culture = celticgfx
+		graphical_cultures = { celticgfx }
 		
 		color = { 0.3 0.7 0.3 }
 
 		male_names = {
-			Adiatorix Bitorix Brogimaros Camma Domneiu Eponi Olorix Smertomara Tectomaros Ambtouti
-			Rigosages Tectosages Bussurigios Suolibrogenos Ulindeininos Ulindrix Acitoric Artiknos Durnos 
-			Neimdix 
-		}
-		female_names = {
-			Ada Affraic_Euphemia Agnes_Agnes Alice_Alice Annabella Aufrica_Euphemia Bethoc_Beatrice Bride_Brigid 
-			Catriona_Catherine Cecilia_Cecilia Christina_Christina Deirdre_Deirdre Dervorgilla_Dervorgilla Donada 
-			Edith_Edith Eithne Ela Eleanor_Eleanor Elspeth_Elisabeth Euna Eva_Eva Fenella_Finnguala Fingola_Finnguala Flora_Flora 
-			Forflissa Galiena Gormelia_Gormflaith Gruoch Helen_Helen Isabel_Elisabeth Joan_Joan Julia_Juliana 
-			Kentigerna Lorna Malmure_Malmure Margaret_Margaret Mariota_Mariota Marjory_Marjory 
-			Martha_Martha Marthoc_Marjory Mary_Maria Maud_Matilda Mirren_Murron Mor_Mor Morag_Mor Muriel_Muriel
-			Murron_Murron Nuala Orabilia Ros Sheena Shona_Joan
-		}
+            		Anastasios_Anastasius Aneroestos_Aneroestos Anthimos_Anthimos Antiokhos_Antiochos Antoeis_Antoeis Antonios_Antonius Apollonios_Apollonios
+            		Arkhelaos_Archelaos Artemidoros_Artemidoros Artiknos_Articnos Ateporix_Ateporix Baigorixo_Baegorix Basileios_Basil Basiliskos_basiliscus
+            		Bassos_Bassos Bathanattos_Bathanattos Bitognatos_Bitognatos Bitorix Bitos Bogodiataros_Bogodiataros Boiorix_Boiorix Bolgios_Belgos
+            		Brennos_Brennos Brogimaros_Brogimaros Brogitarios_Brogitaros Brogoris_Borgoris Daniel_Daniel Deiotaros_Deiotaros Dikasios_Dikasios
+            		Diodoros_Diodoros Dionysios_Dionysios Domneion_Dominius Domnilaos_Domnilaos Domnos_Dominus Doumnorix_Dumnorix Drousos_Drusus
+            		Dyteutos_Dyteutos Dytilaos_Dytilaos Elpidios_Elpidios Epatorix_Epatorix Eporedorix_Eporedorix Eposognatos_Eposognatos Gaios_Gaius
+            		Gaizatorix_Gaizatorix Gregorios_Gregory Heliodoros_heliodoros Hormizes_Hormazd Iakobos_Jacob Ignatios_Ignatius Ioannes_John
+            		Ioulianos_Julian Ioulios_Julius Kallistratos_Kallistratos Kambaules_Cambaules Kassignatos_Cassignatos Kastor_Kastor Katomaros_Catomaros
+            		Kerethrios_Cerethrios Klaudios_Claudius Kleon_Kleon Koädratos_Quadratus Kombolomaros_Combolomaros Komboutis_Combutis
+            		Komontorios_Comontorios Konnakorix_Connacorix Konstantinos_Constantine Kyriakos_Kyriakos Leon_Leo Leonnorios_Leonnorios Leontios_Leontius
+            		Longinos_Longinus Lostoiekos_Lostoiekos Loukas_luke Loutatios_Lutatios Markos_Mark Martyrios_Martyrius Matthaios_Matthew Menas_Menas Mikhail_Michael
+            		Mithradates_Mihrdad Mouses_Moses Nikolaos_Nicolas Olorix_Olorix Orestorios_Orestorios Ortiagon_Ortiagon Palladios_Palladios Paulos_Paul Petros_Peter
+            		Philaretos_philaretos Philippos_Philip Philopatros_Philopatros Pios_Pius Platon_Platon Plotinos_Plotinos Poseidonios_Poseidonios
+            		Prix_Prix Pylamenes_Pylamenes Rouphos_Rufus Sebastianos_Sebastian Segermas_Segermas Sergios_Sergius Severos_Severus Sinatos_Sinatos
+            		Sinorix_Sinorix Sisinnios_Sisinnios Smertomaros_Smertomaros Smertorix_Smertorix Stephanos_Stephen Symeon_Simon Tektomaros_Tectomaros
+            		Theodoros_Theodore Theodotos_Theodotos Thoas_Thoas Thomas_Thomas Tiberios_Tiberius Timotheos_Timothy Valerios_Valerius
+        	}
+        	female_names = {
+            		Adiobogiona_Adiobogiona Agathe_Agatha Agne_Agnes Anastasia_Anastasia Antiokhis_Antiochis Antonia_Antonia Antonilla_Antonilla
+            		Apollodora_apollodora Apollonia_apollonia Artemidora_Artemidora Artemisia_artemisia Athenais_athenais Basilike_Basilike
+            		Beatrike_Beatrice Berenike_Berenike Brogimara_Brogimara Deiotara_Deiotara Dionysia_dionysia Domna_Domina Domneio_Dominia
+            		Drousilla_Drusilla Elpis_elpis Epone_Epona Esther_Esther Gaiana_Gaiana Gregoria_gregoria Ioanna_Joan Ioulia_Julia Iouliana_Juliana
+            		Isidora_Isidora Kamila_Camilla Kamma_Camma Katerina_Catherine Katomara_Catomara Khiomara_Chiomara Klara_Clara Klaudia_Claudia
+            		Kleopatra_kleopatra Koädratilla_Quadratilla Konstantia_Constantia Kyriake_Kyriake Leontia_Leontia Longina_Longina Maria_Maria
+            		Markia_Marcia Martha_Martha Melissa_Melissa Mikhailia_Michaela Nina_Nino Nymphadora_Nymphadora Palladia_Palladia Petra_Petra
+            		Philippa_Philippa Phyllis_Phyllis Pia_Pia Plotina_Plotina Poseidonia_Poseidonia Rebekka_Rebecca Rixa_Rixa Rossomara_Rossomara
+            		Rouphilla_Rufilla Sarra_Sarah Sergia_Sergia Severa_Severa Simone_Simona Smertomara_Smertomara Sophia_Sophia Stephania_Stephania
+            		Tektomara_Tectomara Theodora_Theodora Theophano_Theophane Theophila_Theophila Timothea_Timothea Valeria_Valeria Viviana_Viviana
+        	}
 		
 		dukes_called_kings = yes
 		
@@ -4682,7 +4725,7 @@ continental_celtic = {
 		mother_name_chance = 10
 	}
 	cantabrian = {
-		graphical_culture = celticgfx
+		graphical_cultures = { celticgfx }
 		
 		color = { 0.3 0.8 0.8 }
 
@@ -4733,7 +4776,7 @@ continental_celtic = {
 		mother_name_chance = 10
 	}
 	lusitanian = {
-		graphical_culture = celticgfx
+		graphical_cultures = { celticgfx }
 		
 		color = { 0.7 0.4 0.3 }
 
@@ -4760,7 +4803,7 @@ continental_celtic = {
 		modifier = default_culture_modifier
 	}
 	gaulish = {
-		graphical_culture = celticgfx
+		graphical_cultures = { celticgfx }
 		
 		color = { 0.9 0.9 0.5 }
 		
@@ -4822,10 +4865,10 @@ continental_celtic = {
 }
 
 celtic = {
-	graphical_culture = westerngfx
+	graphical_cultures = { westerngfx }
 
 	irish = {
-		graphical_culture = celticgfx
+		graphical_cultures = { celticgfx }
 		
 		color = { 0.39 0.702 0.412 }
 
@@ -4864,7 +4907,7 @@ celtic = {
 		mother_name_chance = 10
 	}
 	gaelic = {
-		graphical_culture = celticgfx
+		graphical_cultures = { celticgfx }
 		
 		color = { 0.3 0.9 0.9 }
 
@@ -4903,7 +4946,7 @@ celtic = {
 		mother_name_chance = 10
 	}
 	manx = {
-		graphical_culture = celticgfx
+		graphical_cultures = { celticgfx }
 		
 		color = { 0.1 0.6 0.6 }
 
@@ -4941,7 +4984,7 @@ celtic = {
 		mother_name_chance = 10
 	}
 	cornish = {
-		graphical_culture = celticgfx
+		graphical_cultures = { celticgfx }
 		
 		color = { 0.3 0.8 0.8 }
 		
@@ -4987,8 +5030,7 @@ celtic = {
 	}
 
 	briton = {
-		graphical_culture = celticgfx
-		second_graphical_culture = westerngfx
+		graphical_cultures = { celticgfx westerngfx }
 		
 		color = { 0.57 1.0 0.0 }
 
@@ -5038,7 +5080,7 @@ celtic = {
 		mother_name_chance = 0
 	}
 	scottish = {
-		graphical_culture = celticgfx
+		graphical_cultures = { celticgfx }
 		
 		color = { 0.3 0.7 0.7 }
 
@@ -5081,7 +5123,7 @@ celtic = {
 		tribal_name = "TRIBAL_NAME_PROV_CLAN"
 	}
 	pictish = {
-		graphical_culture = celticgfx
+		graphical_cultures = { celticgfx }
 		
 		color = { 0.2 0.6 0.6 }
 
@@ -5118,7 +5160,7 @@ celtic = {
 		tribal_name = "TRIBAL_NAME_PROV_CLAN"
 	}
 	welsh = {
-		graphical_culture = celticgfx
+		graphical_cultures = { celticgfx }
 	
 		color = { 0.3 0.8 0.6 }
 		male_names = {
@@ -5173,7 +5215,7 @@ celtic = {
 		mother_name_chance = 0
 	}
 	breton = {
-		graphical_culture = celticgfx
+		graphical_cultures = { celticgfx }
 		
 		color = { 0.3 0.5 0.4 }
 		
@@ -5222,7 +5264,7 @@ celtic = {
 		mother_name_chance = 0
 	}
 	cumbric = {
-		graphical_culture = celticgfx
+		graphical_cultures = { celticgfx }
 	
 		color = { 0.5 0.7 0.2 }
 
@@ -5253,10 +5295,10 @@ celtic = {
 }
 
 finno_ugric = {
-	graphical_culture = easterngfx
+	graphical_cultures = { easterngfx }
 
 	finnish = {
-		graphical_culture = ugricgfx
+		graphical_cultures = { ugricgfx }
 		
 		color = { 0.1 0.6 0.6 }
 
@@ -5277,7 +5319,7 @@ finno_ugric = {
 		modifier = default_culture_modifier
 	}
 	lappish	 = {
-		graphical_culture = ugricgfx
+		graphical_cultures = { ugricgfx }
 		
 		color = { 0.4 0.75 0.85 }
 
@@ -5295,7 +5337,7 @@ finno_ugric = {
 		modifier = default_culture_modifier
 	}
 	ugricbaltic = {
-		graphical_culture = norsegfx
+		graphical_cultures = { norsegfx }
 		
 		color = { 0.3 0.7 0.7 }
 
@@ -5321,7 +5363,7 @@ finno_ugric = {
 		modifier = default_culture_modifier
 	}
 	komi = {
-		graphical_culture = ugricgfx
+		graphical_cultures = { ugricgfx }
 		
 		color = { 0.5 0.75 0.25 }
 
@@ -5344,7 +5386,7 @@ finno_ugric = {
 		modifier = default_culture_modifier
 	}
 	udmurt = {
-		graphical_culture = ugricgfx
+		graphical_cultures = { ugricgfx }
 		color = { 0.35 0.8 0.65 }
 		
 		male_names = {
@@ -5357,7 +5399,7 @@ finno_ugric = {
 		modifier = default_culture_modifier
 	}
 	khanty = {
-		graphical_culture = ugricgfx
+		graphical_cultures = { ugricgfx }
 		
 		color = { 0.4 0.65 0.20 }
 
@@ -5381,7 +5423,7 @@ finno_ugric = {
 	}
 
 	mansi = {
-		graphical_culture = ugricgfx
+		graphical_cultures = { ugricgfx }
 		
 		color = { 0.7 1.0 0.50 }
 
@@ -5406,7 +5448,7 @@ finno_ugric = {
 	
 	
 	samoyed = { # AKA Nenets
-		graphical_culture = mongolgfx
+		graphical_cultures = { mongolgfx }
 		
 		color = { 0.3 0.75 0.75 }
 
@@ -5422,7 +5464,7 @@ finno_ugric = {
 		modifier = default_culture_modifier
 	}
 	mordvin = {
-		graphical_culture = ugricgfx
+		graphical_cultures = { ugricgfx }
 		
 		color = { 0.3 0.7 0.7 }
 
@@ -5447,10 +5489,10 @@ finno_ugric = {
 }
 
 baltic = {
-	graphical_culture = easterngfx
+	graphical_cultures = { easterngfx }
 
 	lettigallish = {
-		graphical_culture = ugricgfx
+		graphical_cultures = { ugricgfx }
 		
 		color = { 0.5 0.5 0.1 }
 
@@ -5470,7 +5512,7 @@ baltic = {
 		modifier = default_culture_modifier
 	}
 	vistula_veneti = {
-		graphical_culture = ugricgfx
+		graphical_cultures = { ugricgfx }
 		
 		color = { 0.6 0.6 0.1 }
 
@@ -5490,7 +5532,7 @@ baltic = {
 		modifier = default_culture_modifier
 	}
 	przeworsk = {
-		graphical_culture = ugricgfx
+		graphical_cultures = { ugricgfx }
 		
 		color = { 0.6 0.4 0.2 }
 
@@ -5518,7 +5560,7 @@ baltic = {
 		modifier = default_culture_modifier
 	}
 	lithuanian = {
-		graphical_culture = ugricgfx
+		graphical_cultures = { ugricgfx }
 		
 		color = { 0.56 0.55 0.2 }
 
@@ -5538,7 +5580,7 @@ baltic = {
 		modifier = default_culture_modifier
 	}
 	galindian = {
-		graphical_culture = ugricgfx
+		graphical_cultures = { ugricgfx }
 		
 		color = { 0.56 0.55 0.2 }
 
@@ -5558,7 +5600,7 @@ baltic = {
 		modifier = default_culture_modifier
 	}
 	aesti = {
-		graphical_culture = ugricgfx
+		graphical_cultures = { ugricgfx }
 		
 		color = { 0.66 0.55 0.2 }
 
@@ -5578,7 +5620,7 @@ baltic = {
 		modifier = default_culture_modifier
 	}
 	prussian = {
-		graphical_culture = ugricgfx
+		graphical_cultures = { ugricgfx }
 		
 		color = { 0.56 0.55 0.4 }
 
@@ -5596,36 +5638,42 @@ baltic = {
 	}
 }
 east_anatolic = {
-	graphical_culture = muslimgfx
+	graphical_cultures = { muslimgfx }
 
 	tocharian = {
-		graphical_culture = mongolgfx #arabicgfx
-		horde = yes
-
-		color = { 0.6 0.6 0.0 }
-
+		graphical_cultures = { persiangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.75 0.45 0.95  }
+		
 		male_names = {
-			Abdagas Ara Aram Aramu Arbaces Ardashir Argishti Ariovast Arkha Armin Arsaces Arsames Artabanus Artabazus Artasyras Artavazd 
-			Artaxias Aryanes Asheri Asina Ashina Astashpa Astyages Atamaita Aturpat Bagayash Bayad Chosroes Cyaxares Cyrus Darius Deioces 
-			Evagoras Fravarti Gaumata Gobryas Gotarzes Haldita Hidarnes Hydarnes Manchihr Mardonius Martiya Mazaces Megabyzus Menua Nambed 
-			Napad Orodes Orxines Osroes Oxydates Pacorus Peucestas Phraates Phraortes Rusa Sames Sarduri Sarsamas Savaces Shapur Sinatruces 
-			Tigraios Tigranes Tiridates Umamaita Upadarma Vahbarz Vardanes Vologases Vonones Xerxes
+			#Tocharian B
+			Airawanta Ajatasatru Ajite Alp_Alp Ambare_Ambara Amprätasarme Amrätaraksite Amrätodane Anande Anathapindike Aniruddhe Andhave Anktsas Arjune_Arjuna Aranemi Arnyartate Arslam_Arslan Arthadarsi Aryamarg Aryaske Aryatewe Aryawarme Aryottame Asokamitre Asokaraksite Asoke_Ashoka Asärte Astawi Atakke Atidivakare Atyuccagami Atraikatte Bimbasare Caitike Caiytiska Cakravar Cakule Candramukhe Candravasu Candre Caracate Cina Cinatyuti Citre Cittaraksite Cowaske Dandakamal Devarakste Dhanike Dharma_Dharma Dharmacandre Dharmadase Dharmakame Dharmakamiske Dharmaraksite Dharmasome Dharmatrate Dharmawarme Dipankar Dirghanakhe Dravyasvare Durmukhe Ekasrinke Erkätsole Esmiñe Etrise Gayakasyape Gayasirs Gaye_Gaya Gunacamdre Gunasampade Hariscandre Hastake Hetubalike Indradhvaje Indratewe Indre_Indra Indriske Issapake Jatisrone Jetavam Jñanacamndre Jñanaghose Jñanakame Jñanakupte Jñanamokse Jñanasene Jñanasome Jñanasthite Jñanawirye Kadike Kalodaye Kalyanamokse Kalyanavraddhi Kalyanawartane Kanake_Kanaka Kanaske Kanthäke Kapilavarne Kapilavastu Kas Kasyap Katakarni Kaundinye
+			Kauravye Kausal Kemarcune Kentarske Kercampey Kercapiske Kerdipole Kereptaññe Kimñe Klenkarako Klpapatre Klyotiska Kotile Koysam Ksemankare Ksmarjune Ksmawarme Ksmate Ksmateworsa Ksmika Kulkera Kumarapunye Kumpante Kunacamttrakau Kunacamttre Kwirapabhadra_Virabhadra Lariska Mahasammate Mahisvare Manisvare Mitrakseme Mitraske Mitre Moksasene Moksasome Moksawarme Molyoke Mukalanti Munkhare Murdhagate Nandabala Nandake Nande_Nanda Nandipale Nasme Ñatte Naradeve Ñirot Nupura Nyagrodhe Padmakesar Padmottare Pakacandre Pañcasikhi Pawaske Pesane Prabhankare Prabhase Pranada Prasamnake
+			Pravare_Pravara Priyadeve Ptompile Puñaiyse Puñakame Puñaraksite Puñicamndre Punyamitre Purtas Rahule_Rahula Raktadewe Ratnacuda Ratnasikhi Rsivadam Rudramukhe Rudrasarme Sagare Samantatir Samcite Samghatrate Sanavasi Sanghasarme Sankene Sanum Saputanase Sarasike Sarmacamdre Sarsire Satuma Satyake Satyaraksite Siddharthe_Siddhartha Sidhasamgha Siladewe Silamitre Silarakite Silaraksi Silasoma Silavande Silawarne Silayase Silopake Simpraye Siñcake Sinke Sinku Skanatatte Skwarle Slacamndre Solarke Some Srestake Sudarse Sudas Suddhodane Sujate Sukase Suklodane Sunaksatre Sunetre Sutasome Sutate Swarnabuspe Swarnatepe Tarmacandre Tarmaraksite Tenare Tohkem Tonke Tukik Tunka_Tunka Tusi Udanalankar Udayi Ulkamukhe Uluke Upage Upagupte Upanande
+			Uposathe Urbilvakasyape Uttaraphalguni Uttare Vaisravane Vaitike Varddhane Vidusake Vimalapuspe Vinaise Visale Wamsok Warwattaske Wäryaruci Wäryasene Wasampile Wasave Wiryadewe Wiryamitre Wiryasanti Wiryasiñi Wisikke Wrauske Yanayase Yarpaläske Yasa Yasawine Yase Yasonaka Yastare Yiswe_Jesus Yonge Yonu Ype Yudhisthire Yugaraje
 		}
 		female_names = {
-			Amestris Amytis Anzaza Artazostre Artystone Atossa Barsine Damaspia Mandane Parmys Parysatis Phaedymia Rinu Stateira Vashti
+			#Tocharian B
+			Amprätasene Amrätasene Arjuna Arunavati Aryakose Aryaraksite Ayardhyame Bhadra Cañca Dhrtirastre Jñati Kolite Kosthile Malika_Malika Maya_Maya Nagasene Priyasarini Punyasene Purike Purnaya Purohite Putere Räknaska Revati Roce Saci Santa Santisene Sari Sthulananda Sudarsane Sumagati Sumaise Sumati Sundari Suwarte Tarma_Dharma Tarmawirñe Tärtvisara Tati_Tati Tisye Upatisye Uppal Uppalavarna Vajrapani_Vajrapani Vasisthe Vitasake Yasaraksite Yasodhara
 		}
 		
-		dynasty_title_names = yes
-		
+		dukes_called_kings = yes
+		founder_named_dynasties = yes
+
+		from_dynasty_prefix = "mem "
+		male_patronym = "soyä "
+		female_patronym = "tkacer "
+
 		modifier = default_culture_modifier
 	}
 }
 
 altaic = {
-	graphical_culture = muslimgfx
+	graphical_cultures = { muslimgfx }
 
 	turkish = { # Oghuz Turkish
-		graphical_culture = turkishgfx
+		graphical_cultures = { turkishgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.85 0.55 0.15 }
@@ -5648,12 +5696,13 @@ altaic = {
 		
 		dynasty_title_names = yes
 		founder_named_dynasties = yes
+		
+		allow_looting = yes
 
 		modifier = default_culture_modifier
 	}
 	azeri = { #Azerbaijian
-		graphical_culture = arabicgfx
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { arabicgfx muslimgfx }
 
 		color = { 0.39 0.87 0.58 }
 		
@@ -5675,7 +5724,7 @@ altaic = {
 			   modifier = default_culture_modifier
 	}
 	dahi_scythian = { 
-		graphical_culture = turkishgfx
+		graphical_cultures = { turkishgfx }
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.5 0.55 0.3  }
@@ -5698,14 +5747,14 @@ altaic = {
 					   Sozirsauos Siômachos Spadakos Sparophotos Spharobais Spithamês Stormais Stosarakos Sturanos Suarobais Synges Sênêkas Teiranes Teiranês Theothorses 
 					   Thirthagos Thuloganos Tibês Tillês Tiranios Tiranês Toumbagos Toumibagos Xaiorsazês Xartamos Xarthanos Xiamphôkanos Xobas Xêgodis Zabagios Zabandos 
 					   Zabargos Zosines Êlmanos Êrakas
-	}
+		}
 		female_names = {
 					   Ababa Alda Amage Aritê Borena Burdukhan Leimeiê Mada Maiôsara Sarukê Storanê Tamura Tirgato Asabana_Asabana Apama_Apama Barsine_Barsine Dughdho-Va_Dughdho-Va
 					   Eredat-Fedhri_Eredat-Fedhri Franghad_Franghad Frenay_Frenay Huchithra_Huchithra Humaya_Humaya Hutaosa_Hutaosa Hvaredhay_Hvaredhay Hvovi_Hvovi Jagkrut_Jagkrut 
 					   Kanuka_Kanuka Paesanghanu_Paesanghanu Pouruchista_Pouruchista Raoxshna Srutat-Fedhri_Srutat-Fedhri Thriti_Thriti Tushnamatay_Tushnamatay Urudhayant_Urudhayant 
 					   Ushtavaiti_Ushtavaiti Uxshenti_Uxshenti Vadhut_Vadhut Vanghu-Fedhri_Vanghu-Fedhri Vispa-Thaurvo-Ashtray_Vispa-Thaurvo-Ashtray 
 			   Zairichi_Zairichi	
-	}
+		}
 		founder_named_dynasties = yes
 		dukes_called_kings = yes
 
@@ -5713,11 +5762,11 @@ altaic = {
 		prefix = yes
 
 		modifier = default_culture_modifier
-			}
+	}
 
 	
 	utigur = {
-		graphical_culture = muslimgfx #turkicgfx
+		graphical_cultures = { muslimgfx } #turkicgfx
 		
 		color = { 0.7 0.7 0.3 }
 		
@@ -5740,7 +5789,7 @@ altaic = {
 	}
 
 	kutrigur = {
-		graphical_culture = muslimgfx #turkicgfx
+		graphical_cultures = { muslimgfx } #turkicgfx
 		
 		color = { 0.7 0.7 0.3 }
 		
@@ -5762,7 +5811,7 @@ altaic = {
 		founder_named_dynasties = yes
 	}
 	barsil = {
-		graphical_culture = turkicgfx
+		graphical_cultures = { turkishgfx }
 		
 		color = { 0.7 0.7 0.3 }
 		
@@ -5784,7 +5833,7 @@ altaic = {
 		founder_named_dynasties = yes
 	}
 	pecheneg = { # Oghuz Turkish
-		graphical_culture = turkishgfx
+		graphical_cultures = { turkishgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.85 0.79 0.25 }
@@ -5801,10 +5850,12 @@ altaic = {
 		from_dynasty_prefix = "of "
 		founder_named_dynasties = yes
 
+		allow_looting = yes
+
 		modifier = default_culture_modifier
 	}
 	cuman = { # Kipchak Turkish
-		graphical_culture = turkishgfx
+		graphical_cultures = { cumangfx turkishgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.75 0.60 0.20 }
@@ -5821,11 +5872,13 @@ altaic = {
 		from_dynasty_prefix = "of "
 		founder_named_dynasties = yes
 
+		allow_looting = yes
+
 		modifier = default_culture_modifier
 	}
 	
 	khazar = { # Oghur Turkish
-		graphical_culture = turkishgfx
+		graphical_cultures = { turkishgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.7 0.45 0.1 }
@@ -5842,11 +5895,14 @@ altaic = {
 		}
 		
 		founder_named_dynasties = yes
+
+		allow_looting = yes
+
 		modifier = default_culture_modifier
 	}
 	
 	bolghar = { # Oghur Turkish
-		graphical_culture = turkishgfx
+		graphical_cultures = { turkishgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.7 0.7 0.3 }
@@ -5866,13 +5922,16 @@ altaic = {
 			Sati Savaçka Savkëlti Savtilek Savilay_Sevilay Savintik_Sevindik Shurkka Sibel Sirin Sirma Songul Tähtani Tekçe Tura Umay Usunbike Yasar Yeldem Yildiz Yartilek 
 		}
 
-		modifier = default_culture_modifier
 		founder_named_dynasties = yes
+		
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
 	}
 	
 	
 	white_croatian = { # West-Oghur Turkish
-		graphical_culture = turkishgfx
+		graphical_cultures = { turkishgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.9 0.7 0.3 }
@@ -5897,11 +5956,8 @@ altaic = {
 	}
 	
 	avar = { # Oghur Turkish
-		graphical_culture = turkishgfx
-		second_graphical_culture = easterngfx
+		graphical_cultures = { turkishgfx easterngfx }
 		secondary_event_pictures = bedouin_arabic
-
-		horde = yes
 
 		color = { 0.7 0.7 0.3 }
 
@@ -5922,11 +5978,13 @@ altaic = {
 		from_dynasty_prefix = "of "
 		founder_named_dynasties = yes
 
+		allow_looting = yes
+
 		modifier = default_culture_modifier
 	}
 
 	karluk = {
-		graphical_culture = turkishgfx
+		graphical_cultures = { cumangfx turkishgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.65 0.50 0.15 }
@@ -5941,13 +5999,16 @@ altaic = {
 		}
 		
 		from_dynasty_prefix = "of "
+		dynasty_title_names = yes
 		founder_named_dynasties = yes
+
+		allow_looting = yes
 
 		modifier = default_culture_modifier
 	}
 	
 	kirghiz = {
-		graphical_culture = turkishgfx
+		graphical_cultures = { cumangfx turkishgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.85 0.72 0.30 }
@@ -5955,60 +6016,39 @@ altaic = {
 		male_names = {
 			Çilbu Aepak Asalup Asep Atrak Bönek Bachman Begluk Blush Bonyak Borç Eldeçyuk Etrek Girgen Gzi Itlar Ituk Könçek Kobyak Kopti Kotyan Koza
 			Kozel Kubasar Kuntuvdi Kutan Pulad Saru Sevenç Sirçan Sokal Sotan Sugr Törtogul Togli Tolun Tugor Uzluk Uzur
+			Manas Semetei Seitek Barsbeg Kokotoy Jaglaqar Tardush
 		}
 		female_names = {
+			Begayim Jibek
 			Çiçek Çilen Çiltanesi Özgul Özlem Akgul Asli Ayasun Ayten Bozçin Dilek Esin Gulçiçek Gulay Gunduz Gundes Gunes Ilkay Ipek Ipekel Irge
 			Karacik Mala Mutlu Peksen Samur Sarica Sati Sevilay Sevindik Sibel Sirin Sirma Songul Tekçe Tura Umay Usunbike Yasar Yeldem Yildiz
 		}
 		
 		from_dynasty_prefix = "of "
 		founder_named_dynasties = yes
+		
+		male_patronym = " uulu"
+		female_patronym = " kyzy"
+		prefix = no # The patronym is added as a suffix
+
+		allow_looting = yes
 
 		modifier = default_culture_modifier
 	}
-	
-	mongol = {
-		graphical_culture = mongolgfx
-		second_graphical_culture = muslimgfx
-		secondary_event_pictures = bedouin_arabic
-		
-		horde = yes
-		
-		color = { 0.775 0.5 0.15 }
-
-		male_names = {
-			Abagha Achigh Aguchu Ajai Ajinai Akhutai Alagh Alchi Alchidai Altan Ambaghai Arkhai Arasen Babur Badai Bagaridai Bala Barghujin Bartan Batu Bedugun Begter Belgutei
-			Belgunutei Bilge Berke Bodonchar Bogen Bogorchu Bolkhadar Borjigidai Boroghul Bughu Bugidai Bugunutei Bujeg Bukha Bulughan Buri Burkhan Burundai Chagatai Chaghagan Chanai Chigu
-			Chidukhul Chilagun Chiledu Chormakhan Chulgetei Dagun Daritai Dayir Dodai Duua Eljigedei Ghazan Ghunan Guchu Gughlug Guyug Harghasun Horkhudagh Hulegu Husun Inalchi Inancha Iturgen 
-			Jajiradai Jamugha Jebe Jochi Jurchedei Khabichi Khachi Khachigun Khadagh Khagatai Khaidu Khal Khorchi Khorilartai Khubilai Khudu Khutula Khuyildar Kogsegu Kokochu Megetu Megujin
-			Menggei Mongke Morokha Munglig Nakhu Narin Nayaga Nogai Odchigin Ogodei Okhotur Oljaitu Oronartai Shiraghul Shirgugetu Subetei Suyiketu Taghai Tamachi Targhutai Temuge Temujin Temur
-			Todogen Toghoril Toghtoga Tokhtamis Tolui Torolchi Tumen Uighurtai Ukhuna Usun Yedi Yegu Yeke Yesugei Yesunge Yokhunan Kadan Godan
-		}
-		female_names = {
-			Al-Alta Alan Altani Borte Botokhui Bulughan Chabi Chagur Chakha Checheyigen Chotan Doregene Doquz Ebegei Gurbesu Hogelun Holuikhan Ibakha Khadagan Khogaghchin Khojin Khorijin Khugurchin
-			Khulan Mandukhai Mongoljin Nomolun Oghul Orbei Sokhatai Sorkhaghatani Tekine Temulun Töregene Yesugun Yesui Hoelun
-		}
-		
-		from_dynasty_prefix = "of "
-		founder_named_dynasties = yes
-		
-		modifier = default_culture_modifier
-}
 	uyghur = {
-		graphical_culture = turkishgfx
+		graphical_cultures = { cumangfx turkishgfx }
 		secondary_event_pictures = bedouin_arabic
 		
-		color = { 0.65 0.35 0.05 }
+		color = { 0.85 0.75 0.50 }
 
 		male_names = {
-			Çagri Çaka Afsin Ahmet Aksonqor Alaeddin Ali Alkan "Alp Arslan" "Alp Yurek" Alptigin Artuk Ayaz Aydin Aydogan Aydogdu Aytekin Böru Bulend Bahadir Balaban Basbuga Batuhan Baturay Baybars Bayezid Baytas Belek Berkan Berkiyaruk Bozan Bugra Burak Cuneyd Dundar Danismend
-			Davud_David Demir Dogan Dogukan Dukak Erdem Ertan Ertekin Ertugrul Gunduz Hasan_Hasan Hizir Ibrahim Ilgazi Inal Iskender_Alexander Kurboga Kaikaus Kaikhusraw Kaiqobad Kara Karatay Kasim Kaya Kaytun Kemal Kiliç Korkut Kutalmis Kutay Kutlug Mursel Mahmud Mehmed Meliksah Mengucek Mesud Murad Mustafa Orhan Osman Porsuk Rustem Ramazan Ridvan Söbuk Sökmen Sönmez Suleyman Saim Saltuk Saruca Savtekin Savur Sehinsah Selçuk Selim Sencer Sinan Tanrivermis Tekin Timurtas Togay Togtekin Toktamis Tolun Toruntay Tugrul Tunga Turgut Turhan Tutus Uluç Umur Yakut Yaman Yinal Yunus
+			Bilge Çor Üge Barchuq Tömür Bars Adigh Buqa Mänglik Özmish
+			Çilbu Aepak Asalup Asep Atrak Bönek Bachman Begluk Blush Bonyak Borç Eldeçyuk Etrek Girgen Gzi Itlar Ituk Könçek Kobyak Kopti Kotyan Koza
+			Kozel Kubasar Kuntuvdi Kutan Pulad Saru Sevenç Sirçan Sokal Sotan Sugr Törtogul Togli Tolun Tugor Uzluk Uzur
 		}
 		female_names = {
-			Çiçek Çilen Çiltanesi Özgul Özlem Akgul Asli Aslihan Ayasun Ayla Ayse Ayten Azize Bahar Banu Bozçin Canan Ceylan Dunya Dilber Dilek Emine
-			Esin Fatma Firuze Gulçiçek Gulay Gulbahar Gulfem Gulsum Gumus Gunduz Gundes Gunes Hatice Hayat Huriye Ilkay Ilknur Ipek Ipekel Irge
-			Karacik Lale Leyla Mala Mansure Merve Mutlu Nagihan Nergis Neslihan Nilufer Nur Peksen Terkhen Samur Sarica Sati Sehnaz Serap Serife Sevilay
-			Sevindik Sibel_Sibylla Sirin Sirma Songul Sumru Tekçe Tura Umay Usunbike Vahide Yasar Yeldem Yildiz Zehra Zuhal
+			Çiçek Çilen Çiltanesi Özgul Özlem Akgul Asli Ayasun Ayten Bozçin Dilek Esin Gulçiçek Gulay Gunduz Gundes Gunes Ilkay Ipek Ipekel Irge
+			Karacik Mala Mutlu Peksen Samur Sarica Sati Sevilay Sevindik Sibel Sirin Sirma Songul Tekçe Tura Umay Usunbike Yasar Yeldem Yildiz
 		}
 		
 		from_dynasty_prefix = "ve "
@@ -6019,10 +6059,41 @@ altaic = {
 		dynasty_title_names = yes
 		founder_named_dynasties = yes
 
+		allow_looting = yes
+
 		modifier = default_culture_modifier
 	}
+	
+	mongol = {
+		graphical_cultures = { mongolgfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		horde = yes
+		
+		color = { 0.4 0.4 1.0 }
+
+		male_names = {
+			Abagha Achigh Aguchu Ajai Ajinai Akhutai Alagh Alchi Alchidai Altan Ambaghai Arkhai Arasen Babur Badai Bagaridai Bala Barghujin Bartan Batu Bedugun Begter Belgutei
+			Belgunutei Bilge Berke Bodonchar Bogen Bogorchu Bolkhadar Borjigidai Boroghul Bughu Bugidai Bugunutei Bujeg Bukha Bulughan Buri Burkhan Burundai Chagatai Chaghagan Chanai Chigu
+			Chidukhul Chilagun Chiledu Chormakhan Chulgetei Dagun Daritai Dayir Dodai Duua Eljigedei Ghazan Ghunan Guchu Gughlug Guyug Harghasun Horkhudagh Hulegu Husun Inalchi Inancha Iturgen 
+			Jajiradai Jamugha Jebe Jochi Jurchedei Khabichi Khachi Khachigun Khadagh Khagatai Khaidu Khal Khorchi Khorilartai Khubilai Khudu Khutula Khuyildar Kogsegu Kokochu Megetu Megujin
+			Menggei Mongke Morokha Munglig Nakhu Narin Nayaga Nogai Odchigin Ogodei Okhotur Oljaitu Oronartai Shiraghul Shirgugetu Subetei Suyiketu Taghai Tamachi Targhutai Temuge Temujin Temur
+			Todogen Toghoril Toghtoga Tokhtamis Tolui Torolchi Tumen Uighurtai Ukhuna Usun Yedi Yegu Yeke Yesugei Yesunge Yokhunan Kadan Godan
+		}
+		female_names = {
+			Al-Alta Alan Altani Borte Botokhui Bulughan Chabi Chagur Chakha Checheyigen Chotan Doregene Doquz Ebegei Gurbesu Hogelun Holuikhan Ibakha Khadagan Khogaghchin Khojin Khorijin Khugurchin Khulan Khutulun Mandukhai Mongoljin Nomolun Oghul Orbei Sokhatai Sorkhaghatani Tekine Temulun Töregene Yesugun Yesui Hoelun
+		}
+		
+		from_dynasty_prefix = "of "
+		founder_named_dynasties = yes
+
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+}
+	
 	hunnic = {
-		graphical_culture = mongolgfx
+		graphical_cultures = { mongolgfx }
 		horde = yes
 		
 		color = { 0.775 0.5 0.15 }
@@ -6037,12 +6108,12 @@ altaic = {
 		from_dynasty_prefix = "of "
 		founder_named_dynasties = yes
 		count_titles_hidden = yes
-		duke_titles_hidden = yes
+		# duke_titles_hidden = yes
 		
 		modifier = default_culture_modifier
 	}
 	hunno_bulgar = { # Hunnic + Bolghar 
-		graphical_culture = turkishgfx
+		graphical_cultures = { turkishgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.4 0.4 0.0 }
@@ -6068,7 +6139,7 @@ altaic = {
 		founder_named_dynasties = yes
 	}
 	khanid = {
-		graphical_culture = mongolgfx
+		graphical_cultures = { mongolgfx }
 		horde = yes
 		
 		color = { 0.675 0.4 0.05 }
@@ -6083,32 +6154,41 @@ altaic = {
 		from_dynasty_prefix = "of "
 		founder_named_dynasties = yes
 		count_titles_hidden = yes
-		duke_titles_hidden = yes
+		# duke_titles_hidden = yes
 		
 		modifier = default_culture_modifier
 	}
 	khitan = {
-		graphical_culture = mongolgfx
+		graphical_cultures = { mongolgfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
 		horde = yes
 		
-		color = { 0.575 0.3 0.0 }
+		color = { 0.8 0.8 0.3 }
 
 		male_names = {
-			Akhad Alburia Alypbi Askungur Attila Aybat Balamber Belk Bleda Bu-Timer Bu-Urgan Chelbir Dengizich Djilka Djurash Ellec Ermak Gazan Gostun Hernach Khinialon Kurbat Kutrigur Labertam Octar Rugila Sandlikh Shambat Sinnion Sulabi Tat-Ugek Tat-Utyak Tatra Tingiz Tuldila Uldin Uturgur Vund Zabergan
+			Abaoji Bei Biegute Bishe Dashi Deguang Dilie Duolubu Fuguzhi Gou'er Hongji Hougu Jing Ketuyu Rian Ruan
+			Suogu Tiande Wenshunu Wolila Wuge Wuyu Xian Xiuge Yanchege Yanxi Yilie Zhilugu Zhongyuan Zongzhen
 		}
 		female_names = {
-			Ildico N'Kara Al-Alta Alan Altani Borte Botokhui Bulughan Chabi Chagur Chakha Checheyigen Chotan Doregene Doquz Ebegei Gurbesu Hogelun Holuikhan Ibakha Khadagan Khogaghchin Khojin Khorijin Khugurchin
-			Khulan Mandukhai Mongoljin Nomolun Oghul Orbei Sokhatai Sorkhaghatani Tekine Temulun Töregene Yesugun Yesui Hoelun
+			Bage Boshi Changshou Chaogui Cuiba Dianni Jiuge Lübugu Pusuwan Saige Shige Shulü-Ping Shuogu Sokhatai
+			Tabuyan Taige Taoge Xiao Xiao-Wen Xingge Yange Yanmu Yingtian
 		}
+		
+		dynasty_title_names = yes
+		
 		from_dynasty_prefix = "of "
 		founder_named_dynasties = yes
 		count_titles_hidden = yes
-		duke_titles_hidden = yes
+		# duke_titles_hidden = yes
+
+		allow_looting = yes
 		
 		modifier = default_culture_modifier
 	}
+
 	chuyue = {
-		graphical_culture = mongolgfx
+		graphical_cultures = { mongolgfx }
 		horde = yes
 		
 		color = { 0.05 0.5 0.7 }
@@ -6123,17 +6203,16 @@ altaic = {
 		from_dynasty_prefix = "of "
 		founder_named_dynasties = yes
 		count_titles_hidden = yes
-		duke_titles_hidden = yes
+		# duke_titles_hidden = yes
 		
 		modifier = default_culture_modifier
 	}
 }
 central_african  = {
-	graphical_culture = muslimgfx
+	graphical_cultures = { muslimgfx }
 
 	berber = { # Berber
-		graphical_culture = tuareggfx
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { tuareggfx muslimgfx }
 
 		horde = yes
 		
@@ -6179,8 +6258,7 @@ central_african  = {
 		mother_name_chance = 30
 	}
 	guanches = { # Berber
-		graphical_culture = tuareggfx
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { tuareggfx muslimgfx }
 
 		horde = yes
 		
@@ -6226,8 +6304,7 @@ central_african  = {
 		mother_name_chance = 30
 	}
 	tashellhit = { # Berber
-		graphical_culture = tuareggfx
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { tuareggfx muslimgfx }
 
 		horde = yes
 		
@@ -6273,8 +6350,7 @@ central_african  = {
 		mother_name_chance = 30
 	}
 	tamazight = { # Berber
-		graphical_culture = tuareggfx
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { tuareggfx muslimgfx }
 
 		horde = yes
 		
@@ -6320,8 +6396,7 @@ central_african  = {
 		mother_name_chance = 30
 	}
 	riffian= { # Berber
-		graphical_culture = tuareggfx
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { tuareggfx muslimgfx }
 
 		horde = yes
 		
@@ -6367,8 +6442,7 @@ central_african  = {
 		mother_name_chance = 30
 	}
 	shenwa = { # Berber
-		graphical_culture = tuareggfx
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { tuareggfx muslimgfx }
 
 		horde = yes
 		
@@ -6414,8 +6488,7 @@ central_african  = {
 		mother_name_chance = 30
 	}
 	taqbaylit= { # Berber
-		graphical_culture = tuareggfx
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { tuareggfx muslimgfx }
 
 		horde = yes
 		
@@ -6461,9 +6534,8 @@ central_african  = {
 		mother_name_chance = 30
 	} 
 	tacawit = { # Berber
-		graphical_culture = tuareggfx
-		second_graphical_culture = muslimgfx
-
+		graphical_cultures = { tuareggfx muslimgfx }
+		
 		horde = yes
 		
 		color = { 0.9 0.9 0.0 }
@@ -6508,8 +6580,7 @@ central_african  = {
 		mother_name_chance = 30
 	} 
 	nafusi = { # Berber
-		graphical_culture = tuareggfx
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { tuareggfx muslimgfx }
 
 		horde = yes
 		
@@ -6555,8 +6626,7 @@ central_african  = {
 		mother_name_chance = 30
 	} 
 	mzab_wargla= { # Berber
-		graphical_culture = tuareggfx
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { tuareggfx muslimgfx }
 
 		horde = yes
 		
@@ -6602,8 +6672,7 @@ central_african  = {
 		mother_name_chance = 30
 	} 
 	tuareg = { # Berber
-		graphical_culture = tuareggfx
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { tuareggfx muslimgfx }
 
 		horde = yes
 		
@@ -6649,8 +6718,8 @@ central_african  = {
 		mother_name_chance = 30
 	}
 	garamantian = { # Berber
-		graphical_culture = tuareggfx
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { tuareggfx muslimgfx }
+		
 		horde = yes
 		
 		color = { 0.38 0.50 0.32 }
@@ -6696,8 +6765,8 @@ central_african  = {
 	}
 
 	libyan = { # Ancient Libyan
-		graphical_culture = tuareggfx
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { tuareggfx muslimgfx }
+
 		horde = yes
 		
 		color = { 0.32 0.43 0.5 }
@@ -6743,10 +6812,10 @@ central_african  = {
 	}
 }
 south_semitic = {
-	graphical_culture = muslimgfx
+	graphical_cultures = { muslimgfx }
 
 	tribal_arab = {
-		graphical_culture = muslimgfx
+		graphical_cultures = { muslimgfx }
 		
 		color = { 0.30 0.40 0.2 }
 		
@@ -6777,7 +6846,7 @@ south_semitic = {
 		mother_name_chance = 5
 	}
 	ethiopian = {
-		graphical_culture = africangfx
+		graphical_cultures = { africangfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.9 0.4 0.3 }
@@ -6797,8 +6866,7 @@ south_semitic = {
 		modifier = default_culture_modifier
 	}
 	hadhramaut = {
-		graphical_culture = arabicgfx
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { arabicgfx muslimgfx }
 		
 		color = { 0.96 0.16 0.17 }
 
@@ -6825,8 +6893,7 @@ south_semitic = {
 		modifier = default_culture_modifier
 	}
 	sabaean = {
-		graphical_culture = arabicgfx
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { arabicgfx muslimgfx }
 		
 		color = { 0.96 0.25 0.26 }
 
@@ -6853,8 +6920,7 @@ south_semitic = {
 		modifier = default_culture_modifier
 	}
 	minaean = {
-		graphical_culture = arabicgfx
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { arabicgfx muslimgfx }
 		
 		color = { 0.87 0.04 0.05 }
 
@@ -6881,8 +6947,7 @@ south_semitic = {
 		modifier = default_culture_modifier
 	}
 	himyarite = {
-		graphical_culture = arabicgfx
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { arabicgfx muslimgfx }
 		
 		color = { 0.65 0.2 0.2 }
 
@@ -6909,9 +6974,8 @@ south_semitic = {
 		modifier = default_culture_modifier
 	}
 	khalan = {
-		graphical_culture = arabicgfx
-		second_graphical_culture = muslimgfx
-		
+		graphical_cultures = { arabicgfx muslimgfx }
+
 		color = { 0.8 0.65 0.2 }
 
 		male_names = {
@@ -6939,10 +7003,10 @@ south_semitic = {
 	}
 }
 east_semitic = {
-	graphical_culture = muslimgfx
+	graphical_cultures = { muslimgfx }
 	
 	akkadian = { 
-		graphical_culture = muslimgfx #arabicgfx
+		graphical_cultures = { muslimgfx } #arabicgfx
 		
 		color = { 0.9 0.75 0.1 }
 
@@ -6968,8 +7032,7 @@ east_semitic = {
 		modifier = default_culture_modifier
 	}
 	east_aramaic = {
-		graphical_culture = arabicgfx		
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { arabicgfx muslimgfx }
 		
 		color = { 0.85 0.3 0.3 }
 
@@ -6998,7 +7061,7 @@ east_semitic = {
 		modifier = default_culture_modifier
 	}
 	eblaite = { 
-		graphical_culture = muslimgfx #arabicgfx
+		graphical_cultures = { muslimgfx } #arabicgfx
 		
 		color = { 0.9 0.75 0.1 }
 
@@ -7026,10 +7089,10 @@ east_semitic = {
 }
 
 northwest_semitic = {
-	graphical_culture = muslimgfx
+	graphical_cultures = { muslimgfx }
 
 	punic = {
-		graphical_culture = muslimgfx #punicgfx
+		graphical_cultures = { muslimgfx } #punicgfx
 		
 		color = { 0.5 0.2 0.5 }
 
@@ -7056,8 +7119,7 @@ northwest_semitic = {
 		modifier = default_culture_modifier
 	}
 	nabatean = {
-		graphical_culture = arabicgfx
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { arabicgfx muslimgfx }
 		
 		color = { 0.4 0.45 0.4 }
 
@@ -7086,8 +7148,7 @@ northwest_semitic = {
 		modifier = default_culture_modifier
 	}
 	aramean = {
-		graphical_culture = arabicgfx		
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { arabicgfx muslimgfx }
 		
 		color = { 0.65 0.3 0.3 }
 
@@ -7116,8 +7177,7 @@ northwest_semitic = {
 		modifier = default_culture_modifier
 	}
 	samosatan = {
-		graphical_culture = arabicgfx		
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { arabicgfx muslimgfx }	
 		
 		color = { 0.4 0.25 0.2 }
 
@@ -7148,11 +7208,10 @@ northwest_semitic = {
 }
 
 central_semitic = {
-	graphical_culture = muslimgfx
+	graphical_cultures = { muslimgfx }
 	
 	bedouin_arabic = { 
-		graphical_culture = arabicgfx
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { arabicgfx muslimgfx }
 		
 		color = { 0.1 0.75 0.1 }
 
@@ -7180,8 +7239,7 @@ central_semitic = {
 	}
 
 	adnanite = { 
-		graphical_culture = arabicgfx
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { arabicgfx muslimgfx }
 		
 		color = { 0.1 0.1 0.75 }
 
@@ -7209,8 +7267,7 @@ central_semitic = {
 		modifier = default_culture_modifier
 	}
 	bedouin_dravidian = { 
-		graphical_culture = arabicgfx
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { arabicgfx muslimgfx }
 		
 		color = { 0.3 0.9 0.2 }
 
@@ -7247,8 +7304,7 @@ central_semitic = {
 		modifier = default_culture_modifier
 	}
 	maghreb_arabic = { # Berber
-		graphical_culture = arabicgfx
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { arabicgfx muslimgfx }
 
 		horde = yes
 		
@@ -7304,8 +7360,7 @@ central_semitic = {
 		mother_name_chance = 30
 	}
 	levantine_arabic = {
-		graphical_culture = arabicgfx
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { arabicgfx muslimgfx }
 		
 		color = { 0.3 0.95 0.3 }
 
@@ -7332,8 +7387,7 @@ central_semitic = {
 		modifier = default_culture_modifier
 	}
 	egyptian_arabic = {
-		graphical_culture = arabicgfx
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { arabicgfx muslimgfx }
 		
 		color = { 0.1 0.6 0.1 }
 
@@ -7365,7 +7419,7 @@ central_semitic = {
 		modifier = default_culture_modifier
 	}
 	andalusian_arabic = {
-		graphical_culture = andalusiangfx #westerngfx
+		graphical_cultures = { andalusiangfx } #westerngfx
 		
 		color = { 0.4 0.6 0.1 }
 
@@ -7402,10 +7456,10 @@ central_semitic = {
 }
 
 east_slavic = {
-	graphical_culture = easterngfx
+	graphical_cultures = { easterngfx }
 
 	russian = {
-		graphical_culture = easternslavicgfx
+		graphical_cultures = { easternslavicgfx }
 		graphical_unit_culture = western
 		
 		color = { 0.2 0.4 0.1 }
@@ -7443,7 +7497,7 @@ east_slavic = {
 		modifier = default_culture_modifier
 	}
 	ilmenian = {
-		graphical_culture = easternslavicgfx
+		graphical_cultures = { easternslavicgfx }
 		graphical_unit_culture = western
 		
 		color = { 0.45 0.6 0.2 }
@@ -7481,7 +7535,7 @@ east_slavic = {
 		modifier = default_culture_modifier
 	}
 	severian = {
-		graphical_culture = easternslavicgfx
+		graphical_cultures = { easternslavicgfx }
 		graphical_unit_culture = western
 		
 		color = { 0.5 0.8 0.3 }
@@ -7519,7 +7573,7 @@ east_slavic = {
 		modifier = default_culture_modifier
 	}
 	volhynian = {
-		graphical_culture = easternslavicgfx
+		graphical_cultures = { easternslavicgfx }
 		graphical_unit_culture = western
 		
 		color = { 0.65 0.8 0.3 }
@@ -7557,7 +7611,7 @@ east_slavic = {
 		modifier = default_culture_modifier
 	}
 	old_slavic = {
-		graphical_culture = easternslavicgfx
+		graphical_cultures = { easternslavicgfx }
 		
 		color = { 0.4 0.0 0.2 }
 
@@ -7592,7 +7646,7 @@ east_slavic = {
 		
 	}
 	venedi = {
-		graphical_culture = easternslavicgfx
+		graphical_cultures = { easternslavicgfx }
 		graphical_unit_culture = western
 		
 		color = { 0.1 0.3 0.0 }
@@ -7632,10 +7686,10 @@ east_slavic = {
 }
 
 west_slavic = {
-	graphical_culture = easterngfx
+	graphical_cultures = { easterngfx }
 
 	pommeranian = {
-		graphical_culture = westernslavicgfx
+		graphical_cultures = { westernslavicgfx }
 		
 		color = { 0.4 0.6 0.4 }
 
@@ -7660,7 +7714,7 @@ west_slavic = {
 		modifier = default_culture_modifier
 	}
 	lechite = {
-		graphical_culture = westernslavicgfx
+		graphical_cultures = { westernslavicgfx }
 		
 		color = { 0.2 0.4 0.2 }
 
@@ -7685,7 +7739,7 @@ west_slavic = {
 		modifier = default_culture_modifier
 	}
 	geruly = {
-		graphical_culture = westernslavicgfx
+		graphical_cultures = { westernslavicgfx }
 		
 		color = { 0.2 0.4 0.3 }
 		
@@ -7708,7 +7762,7 @@ west_slavic = {
 		modifier = default_culture_modifier
 	}
 	tyuringii = {
-		graphical_culture = westernslavicgfx
+		graphical_cultures = { westernslavicgfx }
 		
 		color = { 0.9 0.7 0.7 }
 		
@@ -7731,7 +7785,7 @@ west_slavic = {
 		modifier = default_culture_modifier
 	}
 	bohemian = {
-		graphical_culture = westernslavicgfx
+		graphical_cultures = { westernslavicgfx }
 		
 		color = { 0.4 0.6 0.5 }
 		
@@ -7754,7 +7808,7 @@ west_slavic = {
 		modifier = default_culture_modifier
 	}
 	polish = {
-		graphical_culture = westernslavicgfx
+		graphical_cultures = { westernslavicgfx }
 		
 		color = { 0.4 0.6 0.55 }
 
@@ -7792,22 +7846,22 @@ west_slavic = {
 		mother_name_chance = 5
 	}
 	nordvind = {
-	   		 graphical_culture = norsegfx
+		graphical_cultures = { norsegfx }
 		
-	   		 color = { 0.25 0.65 0.7 }
+		color = { 0.25 0.65 0.7 }
 		
 		male_names = {
-						Albrikt_Albert Aleksandar_Alexander Anderjs_Andrew Anundir_Anund Arnbjörn_Arnbeorn Asbjörn_Asbeorn Balder_Balder Barid Bertisleif_Bretislaus Björn_Beorn Björnimar_Beornimir Bokdan_Bogdan Burisleif_Boleslav Dan Dobromar_Dobromir Dobromund Dragomund Emund_Edmund
-						Erik_Erik Fredrik_Frederick Frej_Frej Gorm_Gorm Gregor_Gregory Gustaf_Gustav Hakon_Hakon Halbjörn_Halbeorn Halsten_Halsten Harald_Harold Hjalmar_Hjalmar Holmger_Holmger Ivor_Ivar Jakub_Jacob Jarisleif_Jaroslav Jaromar_Jaromir
-						Jarobjörn Jaromund Jaropluk_Yaropolk Jon_John Karl_Charles Kasibjörn Kasimar_Casimir Kasper Kjartan Kol Kolbjörn_Kolbeorn Konrad_Konrad Kresimar_Kresimir Kresisleif_Krzeslaw Kristof_Christopher Lekr_Lech Lesjek_Leszek Lutger Marosleif_Miroslav Mattu_Matthew
-						Milobjörn Milobrat_Milobrat Mistibrand Nikolaj_Nicholas Olaf_Olaf Oleg_Helge Petr_Peter Premisel_Premysl Radomar_Radomir Radosleif_Radoslaf Ragnar_Ragnar Ragnvald_Ragnvald Rajmund_Raymond Rolf_Rolf Rörek_Rurik Rostisleif_Rostislav Sigbjörn_Sigbeorn Sigmund_Sigmund
-						Sjibnek_Zbynek Sjidisbjörn_Zdisbeorn Sjidisleif_Zdislav Skarbimar_Skarbimir Sobesleif_Sobeslaus Stanisleif_Stanislav Sten_Sten Styrbjörn_Styrbeorn Sven_Sven Sverker Svetomar Svetomund Svetopluk_Svatopluk Svetosleif_Sviatoslav Torbjörn_Torbeorn Torbrand_Torbrand
-						Torsten_Torsten Ulrik_Ulrich Vaklaf_Vaclav Valdemar_Vladimir Valdemund Valdesleif_Vladislav Vartisleif_Vratislav Velisleif_Wielislaw Villem_William Vissisleif_Vseslav
+			Albrikt_Albert Aleksandar_Alexander Anderjs_Andrew Anundir_Anund Arnbjörn_Arnbeorn Asbjörn_Asbeorn Balder_Balder Barid Bertisleif_Bretislaus Björn_Beorn Björnimar_Beornimir Bokdan_Bogdan Burisleif_Boleslav Dan Dobromar_Dobromir Dobromund Dragomund Emund_Edmund
+			Erik_Erik Fredrik_Frederick Frej_Frej Gorm_Gorm Gregor_Gregory Gustaf_Gustav Hakon_Hakon Halbjörn_Halbeorn Halsten_Halsten Harald_Harold Hjalmar_Hjalmar Holmger_Holmger Ivor_Ivar Jakub_Jacob Jarisleif_Jaroslav Jaromar_Jaromir
+			Jarobjörn Jaromund Jaropluk_Yaropolk Jon_John Karl_Charles Kasibjörn Kasimar_Casimir Kasper Kjartan Kol Kolbjörn_Kolbeorn Konrad_Konrad Kresimar_Kresimir Kresisleif_Krzeslaw Kristof_Christopher Lekr_Lech Lesjek_Leszek Lutger Marosleif_Miroslav Mattu_Matthew
+			Milobjörn Milobrat_Milobrat Mistibrand Nikolaj_Nicholas Olaf_Olaf Oleg_Helge Petr_Peter Premisel_Premysl Radomar_Radomir Radosleif_Radoslaf Ragnar_Ragnar Ragnvald_Ragnvald Rajmund_Raymond Rolf_Rolf Rörek_Rurik Rostisleif_Rostislav Sigbjörn_Sigbeorn Sigmund_Sigmund
+			Sjibnek_Zbynek Sjidisbjörn_Zdisbeorn Sjidisleif_Zdislav Skarbimar_Skarbimir Sobesleif_Sobeslaus Stanisleif_Stanislav Sten_Sten Styrbjörn_Styrbeorn Sven_Sven Sverker Svetomar Svetomund Svetopluk_Svatopluk Svetosleif_Sviatoslav Torbjörn_Torbeorn Torbrand_Torbrand
+			Torsten_Torsten Ulrik_Ulrich Vaklaf_Vaclav Valdemar_Vladimir Valdemund Valdesleif_Vladislav Vartisleif_Vratislav Velisleif_Wielislaw Villem_William Vissisleif_Vseslav
 		}
 		female_names = {
 
-						 Anna_Anna Asta_Asta Astrid_Astrid Beata Dagmar Dobrafrid Dobrahild Freyja_Freja Gertruda_Gerturde Gudrun_Gudrun Helena_Helen Ingrid Irina_Irene Katarina_Catherine Konstansja_Constance Jarmilfrid Judita_Judith Linda Maria_Maria Magdalena_Magdalena
-						 Margareta_Margaret Milena Milahild Ylva_Ylva Raina Rikissa Saga Sjidishild Sofia_Sophia Stanisleifa_Stanislava Svanhild_Svanhild Svetosleifa_Svetoslava Ulita Uliana_Ulyana Ursula Valdefrid Valdehild Vissisleifa_Vseslava
+			Anna_Anna Asta_Asta Astrid_Astrid Beata Dagmar Dobrafrid Dobrahild Freyja_Freja Gertruda_Gerturde Gudrun_Gudrun Helena_Helen Ingrid Irina_Irene Katarina_Catherine Konstansja_Constance Jarmilfrid Judita_Judith Linda Maria_Maria Magdalena_Magdalena
+			Margareta_Margaret Milena Milahild Ylva_Ylva Raina Rikissa Saga Sjidishild Sofia_Sophia Stanisleifa_Stanislava Svanhild_Svanhild Svetosleifa_Svetoslava Ulita Uliana_Ulyana Ursula Valdefrid Valdehild Vissisleifa_Vseslava
 		}
 		
 		dukes_called_kings = yes
@@ -7833,11 +7887,10 @@ west_slavic = {
 }
 
 south_slavic = {
-	graphical_culture = easterngfx
-	second_graphical_culture = westerngfx
+	graphical_cultures = { easterngfx westerngfx }
 
 	croatian = {
-		graphical_culture = westernslavicgfx
+		graphical_cultures = { westernslavicgfx }
 		
 		color = { 0.4 0.2 0.2 }
 
@@ -7868,7 +7921,7 @@ south_slavic = {
 		
 	}
 	antae = {
-		graphical_culture = westernslavicgfx
+		graphical_cultures = { westernslavicgfx }
 		
 		color = { 0.4 0.9 0.2 }
 
@@ -7899,7 +7952,7 @@ south_slavic = {
 		
 	}
 	sklav = {
-		graphical_culture = westernslavicgfx
+		graphical_cultures = { westernslavicgfx }
 		
 		color = { 0.4 0.0 0.2 }
 
@@ -7930,7 +7983,7 @@ south_slavic = {
 		
 	}
 	tracki = {
-		graphical_culture = westernslavicgfx
+		graphical_cultures = { westernslavicgfx }
 		
 		color = { 0.3 0.0 0.1 }
 
@@ -7963,7 +8016,7 @@ south_slavic = {
 		
 	}
 	arberian = {
-		graphical_culture = westernslavicgfx
+		graphical_cultures = { westernslavicgfx }
 		
 		color = { 0.6 0.4 0.4 }
 
@@ -7979,7 +8032,7 @@ south_slavic = {
 		modifier = default_culture_modifier
 	}
 	bosnjani = {
-		graphical_culture = westernslavicgfx
+		graphical_cultures = { westernslavicgfx }
 		
 		color = { 0.6 0.1 0.1 }
 
@@ -7997,7 +8050,7 @@ south_slavic = {
 		modifier = default_culture_modifier
 		}
 	karantanci = {
-		graphical_culture = westernslavicgfx
+		graphical_cultures = { westernslavicgfx }
 		
 		color = { 0.5 0.2 0.3 }
 
@@ -8016,7 +8069,7 @@ south_slavic = {
 		modifier = default_culture_modifier
 		}
 	serbian = {
-		graphical_culture = westernslavicgfx
+		graphical_cultures = { westernslavicgfx }
 		
 		color = { 0.5 0.3 0.3 }
 
@@ -8040,7 +8093,7 @@ south_slavic = {
 		modifier = default_culture_modifier
 	}
 	romanian = {
-		graphical_culture = westernslavicgfx
+		graphical_cultures = { westernslavicgfx }
 
 		color = { 0.6 0.4 0.4 }
 
@@ -8078,7 +8131,7 @@ south_slavic = {
 		modifier = default_culture_modifier
 	}
 	bulgarian = {
-		graphical_culture = westernslavicgfx
+		graphical_cultures = { westernslavicgfx }
 		
 		color = { 0.7 0.5 0.5 }
 
@@ -8102,8 +8155,7 @@ south_slavic = {
 		modifier = default_culture_modifier
 	}
 	alzzecio = {
-		graphical_culture = southerngfx
-		second_graphical_culture = mediterraneangfx # Fallback type
+		graphical_cultures = { southerngfx mediterraneangfx }
 		
 		color = { 0.7 0.7 0.3 }
 		
@@ -8131,11 +8183,10 @@ south_slavic = {
 	}
 }
 magyar = {
-	graphical_culture = easterngfx
-	second_graphical_culture = westerngfx
+	graphical_cultures = { easterngfx westerngfx }
 
 	hungarian = {
-		graphical_culture = westernslavicgfx
+		graphical_cultures = { westernslavicgfx }
 		
 		color = { 0.5 0.6 0.3 }
 
@@ -8157,11 +8208,13 @@ magyar = {
 		
 		male_patronym = "fi"
 		prefix = no
+		
+		allow_looting = yes
 
 		modifier = default_culture_modifier
 	}
 	old_magyar = {
-		graphical_culture = turkishgfx
+		graphical_cultures = { turkishgfx }
 		
 		color = { 0.7 0.6 0.5 }
 
@@ -8191,31 +8244,54 @@ magyar = {
 	}
 }
 east_iranian = {
-	graphical_culture = muslimgfx
-
+	graphical_cultures = { muslimgfx }
+	
 	sogdian = {
-		graphical_culture = mongolgfx #arabicgfx
-		horde = yes
-
-		color = { 0.3 0.3 0.0 }
-
+		graphical_cultures = { persiangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.43 0.32 0.32 }
+		
 		male_names = {
-			Abdagas Ara Aram Aramu Arbaces Ardashir Argishti Ariovast Arkha Armin Arsaces Arsames Artabanus Artabazus Artasyras Artavazd 
-			Artaxias Aryanes Asheri Asina Ashina Astashpa Astyages Atamaita Aturpat Bagayash Bayad Chosroes Cyaxares Cyrus Darius Deioces 
-			Evagoras Fravarti Gaumata Gobryas Gotarzes Haldita Hidarnes Hydarnes Manchihr Mardonius Martiya Mazaces Megabyzus Menua Nambed 
-			Napad Orodes Orxines Osroes Oxydates Pacorus Peucestas Phraates Phraortes Rusa Sames Sarduri Sarsamas Savaces Shapur Sinatruces 
-			Tigraios Tigranes Tiridates Umamaita Upadarma Vahbarz Vardanes Vologases Vonones Xerxes
+			Gurak Divashtich Yodkhsetak Tuhun Tarkhun Urak Turghar Lushan Nanaifarn Avyaman Yechi Chaki Mechun Tishifan Wupoyan Wakhushakk
+			Tarxun Wanxanak Nawekat Wiyus Uxushukan Bharxuman Skatch Sheshch Chaxren Ramch Shaw Maxak Ramtish Axushfarn Bhurz Chukshak Fudanyan Dishebo Vandak Khudayfarn Sili Tishrat Chunakk Namdar Xutawch Pisak Karz Nijat Chatfaratsaran Dewastich Varzakk Nanai-thvar Kanakk Chuzakk Khwatawch Karzh Nizat Nanaikuch Ukhwan Pator Wakhushuvirt Maniakh Watch Shafnoshak
+			
+			Akhurmaztakk Akhushfarn_Akhushfarn Anghatnaw Anghatspadh Anushirvan_Anushirvan Ardavan_Ardavan Ardeshir_Ardeshir Armatsach Arsach Artikhuvandakh 
+			Artivan_Ardavan Aspandhat Astken Aurang_Aurang Avyaman-yan_Avyaman-yan Avyaman_Avyaman Avyamanch_Avyamanch Avyamanvandak Babak_Babak Bahram_Bahram 
+			Banda Barak_Barak Bharkhuman_Bharkhuman Bhurz_Bhurz Buddhadasa Chakar_Chakar Chakhapak Chakhren_Chakhren Cher_Cher Chetvandak Dariush_Darius 
+			Devadasa Dewashtich_Dewashtich Dhakh Dhruwaspvandak Esfandiar_Esfandiar Eskander_Alexander Ewakhsh Faramarz_Faramarz Farhad_Farhad Farn Farnaghat 
+			Farnch Farnkhund Farroukh_Farroukh Farrukhzad_Farrukhzad Farzad_Farzad Fatmiwach Ferdows_Ferdows Fereedun_Feridun Frikhwataw Ghawtus Ghobad_Ghobad 
+			Ghoshfarn Ghotamsach Godarz_Godarz Goshtasb_Goshtasb Hazarasp_Hazarasp Hormazd_Hormazd Hormoz_Hormoz Induk Irkin_Irkin Jamshid_Jamshid Jiamut 
+			Jimatvande_Jimatvande Kanak_Kanak Kanakk Kartir Karzhtik Kavoos_Kavoos Kaway Kharstrang Khosrow_Khosrow Khun Khurshid_Khurshid Khwadhawanakk 
+			Khwarmew Khwasaw Khwasawch Kund Kundakk Kurush_Cyrus Kushan Kushanakanak Makhak_Makhak Marti Marzuban_Marzuban Maymarghch Methakan Mew Miren 
+			Muqanna Nanai Nanaidhvar Nanaifarn_Nanaifarn Nanaikhsay Nanaithvar_Nanaydvar Nanaizanch Nanayakk Nanevante_Nanevante Narisaf Narshakhi Nawchirth 
+			Nibothak_Nibothak Nipak_Nipak Nithan_Nithan Ot-tegin_Ot-tegin Papakk Parsak Parviz_Parviz Pashang_Pashang Patrodhan Pekako Peroz_Peroz Pesakk 
+			Pujman_Pujman Qishiq_Qishiq Ramtish_Ramtish Rashdhes Razmwanwan Resan Rewdhvar Rokhshan_Rokhshan Rostam_Rostam Rutha Sagharak Sas Sasan Satasp 
+			Sesh_Sesh Shahbaz_Shahbaz Shahin_Shahin Shahrokh_Sharokh Shans Shapur_Shapur Shaw_Shaw Shennu_Shennu Shirch Sina_Sina Spadh Spadhkharsh Srawakk 
+			Stayidh Suryakk Tahmasb_Tahmasb Takhsich Takhsichvandak Takut Tarkhun_Tarkhun Taw Tir Tishtrya_Tishtrya Tishvandak Turghar_Turghar Ukhushukan_Ukhushukan 
+			Urak_Urak Vagh Vaghrew Vahhab_Vahhab Varshasb_Varshasb Varzak_Varzak Varzirak Vishtasb_Vishtasb Viyus_Viyus Vuvva Wakhunam Wakhushakk Wakhushu Wanenak 
+			Wankaway Wankhanak_Wankhanak Wanrazmak Wanwans Wishaghn Xeykhosrow_Keykhosrow Y’n_Y’n Zand_Zand Zartosht_Zartosht Zymt_Zymt
 		}
 		female_names = {
-			Amestris Amytis Anzaza Artazostre Artystone Atossa Barsine Damaspia Mandane Parmys Parysatis Phaedymia Rinu Stateira Vashti
+			Nana Upach An Kang
+			
+			Aghatzak Anakhit Arghavan_Arghavan Banafsheh_Banafsheh Chat_Chat Chatis Chet Chinanch Darya_Darya Funa_Funa Furuzan_Furuzan Ghamze_Ghamze Ghoncheh_Ghoncheh 
+			Golbahar_Golbahar Golshan_Golshan Khansch Makh Mah_Mah Mahtab_Mahtab Miwnay Nana_Nana Nanai_Nanai Nanaidhat Navvaba_Navvaba Nazgol_Nazgol 
+			Nazilla_Nazilla Parvaneh_Parvaneh Parvin_Parvin Ranisa Roxana_Roxana Sanakhram Shahrzad_Shahrzad Shahzadeh_Shahzadeh Shayn Shirin_Shirin Touran_Touran 
+			Yasaman_Yasaman Yena_Yena
 		}
 		
-		dynasty_title_names = yes
-		
+		dukes_called_kings = yes
+		founder_named_dynasties = yes
+
+		from_dynasty_prefix = "m "
+		male_patronym = "zk "
+		female_patronym = "zk "
+
 		modifier = default_culture_modifier
 	}
 	hunas = {
-		graphical_culture = mongolgfx #arabicgfx
+		graphical_cultures = { mongolgfx } #arabicgfx
 		horde = yes
 
 		color = { 0.1 0.4 0.0 }
@@ -8236,7 +8312,7 @@ east_iranian = {
 		modifier = default_culture_modifier
 	}
 	hepthalite = {
-		graphical_culture = mongolgfx #arabicgfx
+		graphical_cultures = { mongolgfx } #arabicgfx
 		horde = yes
 
 		color = { 0.0 0.3 0.0 }
@@ -8257,7 +8333,7 @@ east_iranian = {
 		modifier = default_culture_modifier
 	}
 	xionite = {
-		graphical_culture = mongolgfx #arabicgfx
+		graphical_cultures = { mongolgfx } #arabicgfx
 		horde = yes
 
 		color = { 0.0 0.5 0.0 }
@@ -8279,7 +8355,7 @@ east_iranian = {
 		modifier = default_culture_modifier
 	}
 	alan = {
-		graphical_culture = easternslavicgfx
+		graphical_cultures = { easternslavicgfx }
 		
 		color = { 0.7 0.5 0.7 }
 
@@ -8304,7 +8380,7 @@ east_iranian = {
 		modifier = default_culture_modifier
 	}
 	indo_scythian = {
-		graphical_culture = turkishgfx
+		graphical_cultures = { turkishgfx }
   
 		color = { 0.6 0.3 0 }
   
@@ -8327,7 +8403,7 @@ east_iranian = {
 		modifier = default_culture_modifier
 	}
 	khwarezmian = {
-		graphical_culture = mongolgfx
+		graphical_cultures = { mongolgfx }
 
 		color = { 0.5 0.55 0.3  }
 
@@ -8348,33 +8424,32 @@ east_iranian = {
 		modifier = default_culture_modifier
 	}
 	bactrian = { #Bactrians
+   		graphical_cultures = { persiangfx }
 
-	   		graphical_culture = persiangfx
+		color = { 0.05 0.15 0.05 }
 
-	  		 color = { 0.05 0.15 0.05 }
+		male_names = {
+			Ahuti Amihraman Andez Apama Ardokhsho Artabazu Artana Artasura Artosauka Awishka Bag Bagmareg Barzand Bazeshk Bazodeo Borzomihr Borzomiur Boser Bozan Chinakhratu Daro Dartafarnah Dathshmareg Devraz Etat Eyoman Fanz Freistarab Goboziko Goya Grumbat Gunavarman Hashtuma Huspasina Huvishka Jouishka Kalan Kama Kanarang Kandik Kanishka Katana Kav Kaw Khalas Khanchil Kharana Khirgoman Khoade Khwasraw Kidara Koshan Kozgashka Kozgashki Kungas Kur Loikhobosar Mareg Mihraman Mithravakhsha Nevak Ninda Nobekht Nokonzok Nukunzuk Oaksh Oesh Oeshki Ormuzd Oromozd Orshvadata Parka Peroz Piroz Purlang-zin Pusk Ratbel Sang Shabur Shafar Shao Shizogarg Shodila Spitamanah Sukhrak Tarmad Tirikhshara Ukhshebovak Ukhshyabavaka Vakhshufrita Vakhshuvarta Varhran Vitana Vohumanah Wagra Wagwir Warahan Washava Winamarg Yaskul Yezdgird Zhunlad Zmik
+		}
 
-	   male_names = {
-   	 Ahuti Amihraman Andez Apama Ardokhsho Artabazu Artana Artasura Artosauka Awishka Bag Bagmareg Barzand Bazeshk Bazodeo Borzomihr Borzomiur Boser Bozan Chinakhratu Daro Dartafarnah Dathshmareg Devraz Etat Eyoman Fanz Freistarab Goboziko Goya Grumbat Gunavarman Hashtuma Huspasina Huvishka Jouishka Kalan Kama Kanarang Kandik Kanishka Katana Kav Kaw Khalas Khanchil Kharana Khirgoman Khoade Khwasraw Kidara Koshan Kozgashka Kozgashki Kungas Kur Loikhobosar Mareg Mihraman Mithravakhsha Nevak Ninda Nobekht Nokonzok Nukunzuk Oaksh Oesh Oeshki Ormuzd Oromozd Orshvadata Parka Peroz Piroz Purlang-zin Pusk Ratbel Sang Shabur Shafar Shao Shizogarg Shodila Spitamanah Sukhrak Tarmad Tirikhshara Ukhshebovak Ukhshyabavaka Vakhshufrita Vakhshuvarta Varhran Vitana Vohumanah Wagra Wagwir Warahan Washava Winamarg Yaskul Yezdgird Zhunlad Zmik
-	   }
+		female_names = {
+			Ab Agalg Alow Alushal Anend Arduksh Begeys Dukhtanosh Farowesp Firg Firyid Fordams Frogerd Harug Khuhz Lahun Lahyid Logda Lrohominan Ma Man Mapresey Muul Nana Nawshal Nestokhot Predyig Purogat Puun Rokhshana Umma Wadobargan Wusugd Zbayana Zhindag
+		}
 
-	   female_names = {
-		Ab Agalg Alow Alushal Anend Arduksh Begeys Dukhtanosh Farowesp Firg Firyid Fordams Frogerd Harug Khuhz Lahun Lahyid Logda Lrohominan Ma Man Mapresey Muul Nana Nawshal Nestokhot Predyig Purogat Puun Rokhshana Umma Wadobargan Wusugd Zbayana Zhindag
-	  }
+		from_dynasty_prefix = "auz "
 
-	   from_dynasty_prefix = "auz "
+		dynasty_title_names = yes
+		founder_named_dynasties = yes
 
-	dynasty_title_names = yes
-	founder_named_dynasties = yes
-
-	   modifier = default_culture_modifier
+		modifier = default_culture_modifier
 	}
 }
 
 iranian = {
-	graphical_culture = muslimgfx
+	graphical_cultures = { muslimgfx }
 
 	persian = {
-		graphical_culture = persiangfx
+		graphical_cultures = { persiangfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.8 0.8 0.4 }
@@ -8405,7 +8480,7 @@ iranian = {
 		modifier = default_culture_modifier
 	}
 	kushanshas = {
-		graphical_culture = persiangfx
+		graphical_cultures = { persiangfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.5 0.5 0.1 }
@@ -8436,7 +8511,7 @@ iranian = {
 		modifier = default_culture_modifier
 	}
 	parthian = {
-		graphical_culture = persiangfx
+		graphical_cultures = { persiangfx }
 		secondary_event_pictures = bedouin_arabic
   
 		color = { 0.7 0.1 0.2 }
@@ -8466,7 +8541,7 @@ iranian = {
 		modifier = default_culture_modifier
 	}
 	amardian = { 
-		graphical_culture = persiangfx
+		graphical_cultures = { persiangfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.3 0.75 0.3 }
@@ -8491,7 +8566,7 @@ iranian = {
 		modifier = default_culture_modifier
 	}
 	kalash = {
-		graphical_culture = persiangfx
+		graphical_cultures = { persiangfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.8 0.4 0.4 }
@@ -8521,7 +8596,7 @@ iranian = {
 		modifier = default_culture_modifier
 	}
 	indo_parthian = {
-		graphical_culture = persiangfx
+		graphical_cultures = { persiangfx }
 		secondary_event_pictures = bedouin_arabic
   
 		color = { 0.8 0.1 0.3 }
@@ -8550,7 +8625,7 @@ iranian = {
 		modifier = default_culture_modifier
 	}
 	sarmatian = {
-		graphical_culture = mongolgfx
+		graphical_cultures = { mongolgfx }
 
 		color = { 0.5 0.55 0.3  }
 
@@ -8571,7 +8646,7 @@ iranian = {
 		modifier = default_culture_modifier
 	}
 	iazyges = {
-		graphical_culture = mongolgfx
+		graphical_cultures = { mongolgfx }
 
 		color = { 0.7 0.55 0.73  }
 
@@ -8592,7 +8667,7 @@ iranian = {
 		modifier = default_culture_modifier
 	}
 	kurdish = {
-		graphical_culture = muslimgfx #arabicgfx
+		graphical_cultures = { muslimgfx } #arabicgfx
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.3 0.35 0.1 }
@@ -8635,7 +8710,7 @@ iranian = {
 	}
 	
 	afghan = { # a.k.a. Pashtun
-		graphical_culture = muslimgfx #arabicgfx
+		graphical_cultures = { muslimgfx } #arabicgfx
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.6 0.6 0.1 }
@@ -8678,7 +8753,7 @@ iranian = {
 	}
 	
 	baloch = {
-		graphical_culture = muslimgfx #arabicgfx
+		graphical_cultures = { muslimgfx } #arabicgfx
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.4 0.4 0.05 }
@@ -8722,37 +8797,10 @@ iranian = {
 }
 
 cushitic = {
-	graphical_culture = muslimgfx
+	graphical_cultures = { muslimgfx }
 
-	beja = {
-		graphical_culture = africangfx
-		
-		color = { 0.6 0.6 0.5 }
-
-		male_names = {
-			Abdul-Qadir_Abdul-Qadir Abdulle_Abdullah Abukar_AbuBakr Ali_Ali Maxamed_Muhammad Barkaale Bootaan Bucaale Beynax Bille Beyle Ayaanle Arbooshe 
-			Abroon Xassan_Hasan Husam Xuseen_Hussayn Ibrahim_Ibrahim Muqtar_Mukhtar Ismacil_Is'mail Cisse_Isa Axmed_Ahmed Warsame Cigaal Roble Rigle 
-			Maxamud_Mahmud Musse_Musa Faarax Shirdoon Sharmaake Abdul-Malik Guuleed Umar_Umar Osman Shirwax Qaybdid Samakab Samatalis Samadon Libaan Shire 
-			Raage Waranle Xildiid Saleban_Sulayman Yusuf_Yusuf Samatar Areys Artan Aideed Abtidon Diriye Geldon Geedi Kenadid Mire Mirale Nalaye Nageeye 
-
-		}
-		female_names = {
-			Habiba Layla Maryam Nafisa Yasmin Saynab_Zaynab Baxsan Beydan Barni Beegsan Kaaho Kaafiso Kiin Koos Kinsi Kaad
-			Samira Abyan Aragsan Ardo Ayan Batuulo Baydan Bilan Canbaro Cawrala Ceebla Dahabo Daynabo Farxiyo Habsan Idil Indhouroon Istaahil 
-			Ladan Luul Saxarla Shamso Shukriya Sureya Ubax Ugbad
-			
-		}
-		
-		male_patronym = "ina "
-		female_patronym = "ína "
-		prefix = yes
-
-		founder_named_dynasties = yes
-
-		modifier = african_culture_modifier
-	}
 	somali = {
-		graphical_culture = africangfx
+		graphical_cultures = { africangfx }
 		
 		color = { 0.4 0.4 0.3 }
 
@@ -8780,7 +8828,7 @@ cushitic = {
 		modifier = african_culture_modifier
 	}
 	sidamic = {
-		graphical_culture = africangfx
+		graphical_cultures = { africangfx }
 		
 		color = { 0.8 0.8 0.7 }
 
@@ -8807,7 +8855,7 @@ cushitic = {
 		modifier = african_culture_modifier
 	}
 	beja = {
-		graphical_culture = africangfx
+		graphical_cultures = { africangfx }
 		
 		color = { 0.45 0.8 0.35 }
 
@@ -8831,7 +8879,7 @@ cushitic = {
 		female_patronym = "ína "
 		prefix = yes
 
-				dynasty_title_names = no
+		dynasty_title_names = no
 		founder_named_dynasties = yes
 
 		modifier = african_culture_modifier
@@ -8839,10 +8887,10 @@ cushitic = {
 }
 
 east_african = {
-	graphical_culture = muslimgfx
+	graphical_cultures = { muslimgfx }
 
 	nubian = {
-		graphical_culture = africangfx
+		graphical_cultures = { africangfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.35 0.7 0.25 }
@@ -8868,7 +8916,7 @@ east_african = {
 		modifier = default_culture_modifier
 	}
 	coptic = {
-		graphical_culture = muslimgfx #africangfx
+		graphical_cultures = { muslimgfx } #africangfx
 		
 		color = { 0.8 0.4 0.4 }
 
@@ -8888,40 +8936,40 @@ east_african = {
 		modifier = default_culture_modifier
 	}
 	afar = {
-		graphical_culture = africangfx
+		graphical_cultures = { africangfx }
 
 		color = { 0.75 0.95 0.65 }
 
 		male_names = {
-		Abdul Abdulkadir Adam Ahmad Ahmed Ali Alimirah Aref Asa Aydahis Badlay Basu Bourhan Daoud_David Dileita Gaas Garad Gashaw Habib Hanfere Illalta Jamal Jasa Kadhafo Kedafu Mafatah Mahammad_Muhammed Mansur Mirah Mohamooda_Mahmud Muhyadin Netsanet Redo Sabr Shamsa Umar Usman Yayyo_John
+			Abdul Abdulkadir Adam Ahmad Ahmed Ali Alimirah Aref Asa Aydahis Badlay Basu Bourhan Daoud_David Dileita Gaas Garad Gashaw Habib Hanfere Illalta Jamal Jasa Kadhafo Kedafu Mafatah Mahammad_Muhammed Mansur Mirah Mohamooda_Mahmud Muhyadin Netsanet Redo Sabr Shamsa Umar Usman Yayyo_John
 		}
 		female_names = {
-		Aisha Amina Dohra Fatima Fatuma Hana Hate Kalasa Koyna Laa Layla Lilou Maryam_Maria Meqe Nadia Saaku Salaamata Use Yasmin
+			Aisha Amina Dohra Fatima Fatuma Hana Hate Kalasa Koyna Laa Layla Lilou Maryam_Maria Meqe Nadia Saaku Salaamata Use Yasmin
 		}
 
 		modifier = default_culture_modifier
 	}
 	old_nubian = {
-		graphical_culture = africangfx
+		graphical_cultures = { africangfx }
 		secondary_event_pictures = bedouin_arabic
+		
 		color = { 0.6 0.3 0.2 }
 
 		male_names = {
-		Addae Adeben Adofo Adom Adusa Agyei Agyeman Agyemang Akron Akwasi Amoa Amoani Ampah Anan Anane Ankoma Anum Asamoah Ashon Ason Atoapem Awotwe Awotwi Badu Berko Boadi Bodua Donkor Dubaku Ebo Ekow Enu Fiifi Gyasi Jojo Kobby Kobena Kobi Kobina Kodjo Koffi Kofi Kojo Komla Komlan Kontar Kosi Kow Kwabena Kwadwo Kwaku Kwame Kwasi Kwaw Kweku Kwesi Kwodwo Kyere Manu Minkah Nkruma Nsia Nsonowa Ntonni Ogyam Okoto Okyin Osei Owusu Owusuwao Pereko Siisi Tano Yaba Yao Yaw Yawo Yoofi
+			Addae Adeben Adofo Adom Adusa Agyei Agyeman Agyemang Akron Akwasi Amoa Amoani Ampah Anan Anane Ankoma Anum Asamoah Ashon Ason Atoapem Awotwe Awotwi Badu Berko Boadi Bodua Donkor Dubaku Ebo Ekow Enu Fiifi Gyasi Jojo Kobby Kobena Kobi Kobina Kodjo Koffi Kofi Kojo Komla Komlan Kontar Kosi Kow Kwabena Kwadwo Kwaku Kwame Kwasi Kwaw Kweku Kwesi Kwodwo Kyere Manu Minkah Nkruma Nsia Nsonowa Ntonni Ogyam Okoto Okyin Osei Owusu Owusuwao Pereko Siisi Tano Yaba Yao Yaw Yawo Yoofi
 		}
 		female_names = {
-		Aba Abena Abina Abla Abrema Adowa Adwoa Afi Afia Afua Akosi Akosiwa Akosua Aku Akua Ama Amba Ame Ameyo Amma Araba Asi Awusi Ayawa Baaba Baako Baduwaa Efia Efua Ekua Esi Kaakyire Kakra Kessie Kunto Kwasiba Maanu Mansa Morowa Nkroma Nsowaa Panyin Thema Yaa Yaaba
+			Aba Abena Abina Abla Abrema Adowa Adwoa Afi Afia Afua Akosi Akosiwa Akosua Aku Akua Ama Amba Ame Ameyo Amma Araba Asi Awusi Ayawa Baaba Baako Baduwaa Efia Efua Ekua Esi Kaakyire Kakra Kessie Kunto Kwasiba Maanu Mansa Morowa Nkroma Nsowaa Panyin Thema Yaa Yaaba
 		}
 
 		modifier = default_culture_modifier
 		}
 }
 west_african = {
-	graphical_culture = africangfx
-	second_graphical_culture = muslimgfx
+	graphical_cultures = { africangfx muslimgfx }
 	
 	manden = {
-		graphical_culture = westafricangfx
+		graphical_cultures = { westafricangfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.45 0.45 0.2 }
@@ -8946,8 +8994,7 @@ west_african = {
 		modifier = default_culture_modifier
 	}
 	mossi = {
-
-		graphical_culture = africangfx #africangfx
+		graphical_cultures = { africangfx } #africangfx
 		
 		color = { 0.99 0.01 0.5 }
 		
@@ -8959,8 +9006,9 @@ west_african = {
 		modifier = default_culture_modifier
 		}
 	akan = {
-		graphical_culture = westafricangfx
+		graphical_cultures = { westafricangfx }
 		secondary_event_pictures = bedouin_arabic
+		
 		color = { 0.6 0.3 0.2 }
 
 		male_names = {
@@ -8975,11 +9023,11 @@ west_african = {
 }
 
 mesoamerican = {
-	graphical_culture = mesoamericangfx
-	second_graphical_culture = muslimgfx
+	graphical_cultures = { mesoamericangfx muslimgfx }
 
 	nahuatl = {
-		graphical_culture = mesoamericangfx
+		graphical_cultures = { mesoamericangfx }
+		
 		color = { 1.0 0.5 0.0 }
 		
 		horde = yes
@@ -8990,10 +9038,10 @@ mesoamerican = {
 			Acalan Acacitli Acamapichtli Acolmiztli Aculnahuacatl Ahuiliztli Ahuitzotl Atl Axayacatl Cacamatzin Chimalli Chimalpilli Chimalpopoca Cipac Coanacoch Coatl Cozahtli Cuauhtemoc Cuauhtl Cuetlachtli Cuetzpalli Cuixtli Cuitlahuac 
 			Huitzilin Huitzilihuitl Huitzitl Huitztecol Iquehuacatzin Itzcoatl Itzli Itzcuintli Ixtlilxochitl Mahchimaleh Matlal Mazatl Matlalihuitl Matlatzincatzin Maxtla Miztli Moctezuma Moquihuix Necuametl Nezahualcoyotl Nezahualpilli Nochehuatl 
 			Ocuil Olli Opochtli Ozomatli Quauhtli Tapayaxi Tecocoltzin Tecolotl Tetlepanquetzaltzin Tezozomoc Tizoc Tizocic Tlacaelel Tlacaeleltzin Tlalli Tlaloc Tochtli Tototl Tzompantzin Tlilpotonqui Topiltzin Totoquihuaztli 
-			Ueman Yaotl Yayauhqui Yolotli Yolyamanitzin Xicohtencatl Xiuhpilli Xihuitl Xipil Xipilli Xochitl Xochipepe Xochipilli Yaotl Zipactonal Zolin
+			Ueman Yaotl Yayauhqui Yolotli Yolyamanitzin Xicohtencatl Xiuhpilli Xihuitl Xipil Xipilli Xochitl Xochipepe Xochipilli Zipactonal Zolin
 		}
 		female_names = {
-			Achcauhtli Acxocueitl Ahuiliztli Amoxtli Atl Atotoztli Ayauhcihuatl Azcalxochitzin Centehua Cihuaton Citlalmina Chalchiuitl Chicahua Chichimecacihuatzin Chipahua Chicomecoatl Chimalma Cihuaton Citlali Citlalli Citlalmina Coaxoch Coszcatl 
+			Achcauhtli Acxocueitl Ahuiliztli Amoxtli Atl Atotoztli Ayauhcihuatl Azcalxochitzin Centehua Cihuaton Chalchiuitl Chicahua Chichimecacihuatzin Chipahua Chicomecoatl Chimalma Citlali Citlalli Citlalmina Coaxoch Coszcatl 
 			Cozamalotl Cuicatl Eleuia Eloxochitl Etalpalli Eztli Huehue-Zaca Itotia Iuitl Ixcatzin Izel Malinalxochitl Manauia Matlalatzin Mecatl Meztli Miahuaxiuitl Miyaoaxochitl Mizquixahual Momoztli Nahuatl Necahual Nelli Ohtli Papa Patli
 			Quiauhxochitl Sacnite Techichpotzin Tezozomoc Tziquetzalpoztectzin Teiuc Teicuih Teyacapan Tepin Tezcatlan Tlacotl Tlahco Tlahcoehua Toltecatl Tonalnan Tlazozomizqui
 			Yoltzin Xilonen Xiloxoch Xiuhtomiyauhtzin Xochitl Xocoh Xocoyotl Yaretzi Zeltzin Zyanya
@@ -9012,16 +9060,17 @@ mesoamerican = {
 		mat_grm_name_chance = 25
 		mother_name_chance = 0
 
+		allow_looting = yes
+
 		modifier = default_culture_modifier
 	}
 }
 
 israelite = {
-	graphical_culture = easterngfx
-	second_graphical_culture = byzantinegfx
+	graphical_cultures = { easterngfx byzantinegfx }
 
 	ashkenazi = {
-		graphical_culture = byzantinegfx
+		graphical_cultures = { byzantinegfx }
 		
 		color = { 0.6 0.3 0.6 }
 
@@ -9032,7 +9081,7 @@ israelite = {
 			Hila Isaac Ivomai Kafnai Kahana Kalonymos Levi Kiyomi Machir Malcha Mar Mari Matiyahu Meir Menechem Menashe Mesharsheya Meshulam 
 			Mevasser Mishael Mordechai Moshe Nachman Nachshon Nasan Natan Natroi Natronai Nechemiah Nehilai Nesanel Nissim Paltoi Pirkoi 
 			Peter Rava Ravai Ravi Ravya Reuven Rivai Saadiah Sechok Shabsai Shalom Shanoi Shemaryah Sherira Sheshna Shila Shimon Shinoi 
-			Shlomo Shmuel Sorgo Sulam Tachlifa Tamar Tzadok Tzemach Uri Yaakov Yachya Yechiel Yehudah Yehudai Yehoshua Yeshayah Yehudah 
+			Shlomo Shmuel Sorgo Sulam Tachlifa Tamar Tzadok Tzemach Uri Yaakov Yachya Yechiel Yehudah Yehudai Yehoshua Yeshayah 
 			Yisrael Yitzchak Yoel Yosef Yoshiah Yosi Yuda Zakkai Zelekman Zuiskind
 		}
 		female_names = {
@@ -9045,7 +9094,7 @@ israelite = {
 		modifier = default_culture_modifier
 	}
 	juhuro = {
-		graphical_culture = byzantinegfx
+		graphical_cultures = { byzantinegfx }
 		
 		color = { 0.6 0.3 0.6 }
 
@@ -9072,7 +9121,7 @@ israelite = {
 		modifier = default_culture_modifier
 	}
 	sephardi = {
-		graphical_culture = byzantinegfx
+		graphical_cultures = { byzantinegfx }
 		
 		color = { 0.7 0.2 0.7 }
 
@@ -9083,7 +9132,7 @@ israelite = {
 			Hila Isaac Ivomai Kafnai Kahana Kalonymos Levi Kiyomi Machir Malcha Mar Mari Matiyahu Meir Menechem Menashe Mesharsheya Meshulam 
 			Mevasser Mishael Mordechai Moshe Nachman Nachshon Nasan Natan Natroi Natronai Nechemiah Nehilai Nesanel Nissim Paltoi Pirkoi 
 			Peter Rava Ravai Ravi Ravya Reuven Rivai Saadiah Sechok Shabsai Shalom Shanoi Shemaryah Sherira Sheshna Shila Shimon Shinoi 
-			Shlomo Shmuel Sorgo Sulam Tachlifa Tamar Tzadok Tzemach Uri Yaakov Yachya Yechiel Yehudah Yehudai Yehoshua Yeshayah Yehudah 
+			Shlomo Shmuel Sorgo Sulam Tachlifa Tamar Tzadok Tzemach Uri Yaakov Yachya Yechiel Yehudah Yehudai Yehoshua Yeshayah
 			Yisrael Yitzchak Yoel Yosef Yoshiah Yosi Yuda Zakkai Zelekman Zuiskind
 		}
 		female_names = {
@@ -9096,7 +9145,7 @@ israelite = {
 		modifier = default_culture_modifier
 	}
 	hebrew = { 
-		graphical_culture = muslimgfx #arabicgfx
+		graphical_cultures = { muslimgfx } #arabicgfx
 		
 		color = { 0.5 0.4 0.7 }
 
@@ -9144,10 +9193,10 @@ israelite = {
 }
 
 siberian_group = {
-	graphical_culture = indiangfx
+	graphical_cultures = { indiangfx }
 
 	yeniseian = {
-		graphical_culture = mongolgfx
+		graphical_cultures = { mongolgfx }
 
 		color = { 0.10 0.00 0.05 }
 
@@ -9163,12 +9212,10 @@ siberian_group = {
 }
 
 indo_aryan_group = {
-	graphical_culture = indiangfx
-	second_graphical_culture = muslimgfx # Fallback type
+	graphical_cultures = { indiangfx muslimgfx }
 	
 	bengali = { # Indo-Aryan
-		graphical_culture = indiangfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { indiangfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.45 0.0 0.0 }
@@ -9215,8 +9262,7 @@ indo_aryan_group = {
 	}
 	
 	oriya = { # Indo-Aryan
-		graphical_culture = indiangfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { indiangfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.8 0.4 0.0 }
@@ -9252,8 +9298,7 @@ indo_aryan_group = {
 	}
 
 	old_kamrupan = { # Indo-Aryan
-		graphical_culture = indiangfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { indiangfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.4 0.1 0.0 }
@@ -9278,8 +9323,7 @@ indo_aryan_group = {
 	}
 	
 	assamese = { # Indo-Aryan
-		graphical_culture = indiangfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { indiangfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.6 0.3 0.0 }
@@ -9304,8 +9348,7 @@ indo_aryan_group = {
 	}
 
 	hindustani = { # Indo-Aryan
-		graphical_culture = indiangfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { indiangfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 1.0 0.0 0.0 }
@@ -9356,8 +9399,7 @@ indo_aryan_group = {
 	}
 	
 	gujurati = { # Indo-Aryan
-		graphical_culture = indiangfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { indiangfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.4 0.2 0.2 }
@@ -9408,8 +9450,7 @@ indo_aryan_group = {
 	}
 	
 	panjabi = { # Indo-Aryan
-		graphical_culture = indiangfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { indiangfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.8 0.3 0.2 }
@@ -9434,8 +9475,7 @@ indo_aryan_group = {
 	}
 
 	sanskrit = { # Vedic 
-		graphical_culture = indiangfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { indiangfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 
 		horde = yes
@@ -9465,8 +9505,7 @@ indo_aryan_group = {
 	}
 	
 	rajput = { # Indo-Aryan
-		graphical_culture = indiangfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { indiangfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.6 0.0 0.0 }
@@ -9499,12 +9538,12 @@ indo_aryan_group = {
 			Chandanaraja Chandraraja Chaud-Singh Dadda Dambarisimha Deopali-Deo Dharapatta Dharasena Dhruvasena Dinakarn Dronasinha Dungar-Singh 
 			Durlabharaja Gajasimha Gopala Gopendraka_Gopendraraja Gopendraraja_Gopendraraja Govinda_Govindaraja Govindapala_Govindaraja Guhasena 
 			Guvaka_Govindaraja Hammira Hammir-Singh Hanspal Hariraja Harischandra Hemachandra Jagadeva Jaitrasimha_Jaitrasimha Jaitra-Singh_Jaitrasimha 
-			Jaitugideva Jasapala Jaskarn Jayaraja_Jayaraja Jayasimha_Jayasimha Jay-Singh_Jayasimha Jay-Singh-Deo Jayat-Singh_Jayasimha Jayshikari Jendraraja 
+			Jasapala Jaskarn Jayaraja_Jayaraja Jayasimha_Jayasimha Jay-Singh_Jayasimha Jay-Singh-Deo Jayat-Singh_Jayasimha Jayshikari Jendraraja 
 			Jojalla Kalbhoj Kanhadadeva Karandeva_Karnadeva Karan-Singh Karnadeva_Karnadeva Katudeva Katukaraja Keerti-Verma_Kirtivarman Kelhana Kharagraha 
 			Khuman Kirtipala Kirtivarman_Kirtivarman Kshemraja_Xemraja Kshem-Singh Kshetra-Singh Lakhanapala Lakhshaman-Singh Lakshmana_Lakshmanadeva 
 			Lakshmanadeva_Lakshmanadeva Lakshmivarman Lavanyakarna Lunavarman Luntiga Mahap Mahayak Mahendra_Mahendrapala Mahendrapala_Mahendra Mahipala Maladeva
 			Manavasimha Mathan-Singh Mattat Mulraja Nagabhata Nagarjuna Nagraja Naradeva Narapati Naravarman_Naravarman Naravarmandeva_Naravarman Nar-Verma_Naravarman 
-			Narwahan Nayapala Padam-Singh Prahladana Pratapa Prithvipal_Prithviraja Prithivipala_Prithviraja Purnpala Rahap Ramapala Ratan-Singh Rayapala Rudrapala
+			Narwahan Padam-Singh Prahladana Pratapa Prithvipal_Prithviraja Prithivipala_Prithviraja Purnpala Rahap Ramapala Ratan-Singh Rayapala Rudrapala
 			Sahajapala Sahanapala Samanta_Samanta Samant-Singh_Samanta Samantasimha_Samanta Samarasimha_Samarasimha Samar-Singh_Samarasimha Shaliwahan Shuchi-Verma 
 			Siladitya Sindhuraja Singhraja Sinha Sinhad-Deo Siyaka Sohiya Someshwara Suratrana Tejasimha_Tejasimha Tej-Singh_Tejasimha Tribhuvanapala Udayasimha 
 			Udayavarman Upendra Vagbhata Vahadiasimha Vairisimha_Vairisimha Vairsingh_Vairisimha Vajradeva Vakapati_Vakpati Vakpati_Vakpati Vakpatiraja_Vakpati
@@ -9536,8 +9575,7 @@ indo_aryan_group = {
 	}
 
 	sindhi = { # Indo-Aryan
-		graphical_culture = indiangfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { indiangfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 1.0 0.2 0.0 }
@@ -9560,8 +9598,7 @@ indo_aryan_group = {
 	}
 
 	marathi = { # Indo-Aryan
-		graphical_culture = indiangfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { indiangfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.8 0.2 0.0 }
@@ -9605,8 +9642,7 @@ indo_aryan_group = {
 		modifier = default_culture_modifier
 	}
 	maharashtri_prakrit = { # Indo-Aryan
-		graphical_culture = indiangfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { indiangfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.6 0.0 0.0 }
@@ -9651,8 +9687,7 @@ indo_aryan_group = {
 	}
 
 	sinhala = { # Indo-Aryans who arrived in Sri Lanka ca 600BC
-		graphical_culture = indiangfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { indiangfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 1.0 0.3 0.3 }
@@ -9692,10 +9727,10 @@ indo_aryan_group = {
 }
 
 albanian_group = {
-	graphical_culture = byzantinegfx
+	graphical_cultures = { byzantinegfx }
 
 	albanian = {
-		graphical_culture = byzantinegfx
+		graphical_cultures = { byzantinegfx }
 		
 		color = { 0.4 0.2 0.2 }
 
@@ -9735,12 +9770,10 @@ albanian_group = {
 	
 
 dravidian_group = {
-	graphical_culture = indiangfx
-	second_graphical_culture = muslimgfx # Fallback type
+	graphical_cultures = { indiangfx muslimgfx }
 
 	tamil = { # Dravidian - Southern India except Sri Lanka
-		graphical_culture = indiangfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { indiangfx muslimgfx }
 		secondary_event_pictures = bengali
 		
 		color = { 1.0 0.7 0.2 }
@@ -9793,8 +9826,7 @@ dravidian_group = {
 	}
 
 	nasrani = { # Dravidian - Southern India except Sri Lanka
-		graphical_culture = indiangfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { indiangfx muslimgfx }
 		secondary_event_pictures = bengali
 		
 		color = { 0.3 0.7 0.2 }
@@ -9847,8 +9879,7 @@ dravidian_group = {
 	}
 	
 	telugu = { # Dravidian
-		graphical_culture = indiangfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { indiangfx muslimgfx }
 		secondary_event_pictures = bengali
 		
 		color = { 0.8 0.8 0.0 }
@@ -9877,13 +9908,11 @@ dravidian_group = {
 		pat_grm_name_chance = 25
 		mat_grm_name_chance = 25
 		mother_name_chance = 0
-		
 		modifier = default_culture_modifier
 	}
 	
 	kannada = { # Dravidian
-		graphical_culture = indiangfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { indiangfx muslimgfx }
 		secondary_event_pictures = bengali
 		
 		color = { 0.8 0.6 0.0 }
@@ -9925,11 +9954,11 @@ dravidian_group = {
 }
 
 proto_carpathian = {
-	graphical_culture = byzantinegfx
+	graphical_cultures = { byzantinegfx }
 
 
 	macedonian = {
-		graphical_culture = byzantinegfx
+		graphical_cultures = { byzantinegfx }
 		
 		color = { 0.7 0.5 0.5 }
 
@@ -9973,7 +10002,7 @@ proto_carpathian = {
 		modifier = default_culture_modifier
 	}
 	thracian = {
-		graphical_culture = byzantinegfx
+		graphical_cultures = { byzantinegfx }
 		
 		color = { 0.6 0.4 0.4 }
 
@@ -10012,7 +10041,7 @@ proto_carpathian = {
 		modifier = default_culture_modifier
 	}
 	dacian = {
-		graphical_culture = byzantinegfx
+		graphical_cultures = { byzantinegfx }
 		
 		color = { 0.45 0.376 0.31 }
 
@@ -10051,7 +10080,7 @@ proto_carpathian = {
 		modifier = default_culture_modifier
 	}
 	illyrian = {
-		graphical_culture = byzantinegfx
+		graphical_cultures = { byzantinegfx }
 		
 		color = { 0.0 0.2 0.4 }
 
@@ -10090,7 +10119,7 @@ proto_carpathian = {
 		modifier = default_culture_modifier
 	}
 	veneti = {
-		graphical_culture = byzantinegfx
+		graphical_cultures = { byzantinegfx }
 		
 		color = { 0.9 0.9 0.7 }
 
@@ -10130,12 +10159,10 @@ proto_carpathian = {
 	}
 }
 southeast_asian_group = {
-	graphical_culture = indiangfx
-	second_graphical_culture = muslimgfx # Fallback type
+	graphical_cultures = { indiangfx muslimgfx }
 
 	manipuri = { 
-		graphical_culture = indiangfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { indiangfx muslimgfx }
 		secondary_event_pictures = bengali
 		
 		color = { 0.0 0.2 0.7 }
@@ -10171,8 +10198,7 @@ southeast_asian_group = {
 		modifier = default_culture_modifier
 	}
 	arakanese = { 
-		graphical_culture = indiangfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { indiangfx muslimgfx }
 		secondary_event_pictures = bengali
 		
 		color = { 0.0 0.1 0.5 }
@@ -10208,8 +10234,7 @@ southeast_asian_group = {
 		modifier = default_culture_modifier
 	}
 	naga = { 
-		graphical_culture = mongolgfx #arabicgfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { mongolgfx muslimgfx } #arabicgfx
 		secondary_event_pictures = bengali
 		
 		color = { 0.0 0.08 0.4 }
@@ -10245,8 +10270,7 @@ southeast_asian_group = {
 		modifier = default_culture_modifier
 	}
 	bodo = { 
-		graphical_culture = mongolgfx #arabicgfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { mongolgfx muslimgfx } #arabicgfx
 		secondary_event_pictures = bengali
 		
 		color = { 0.0 0.06 0.3 }
@@ -10283,10 +10307,10 @@ southeast_asian_group = {
 	}
 }
 east_celtic = {
-	graphical_culture = westerngfx
+	graphical_cultures = { westerngfx }
 
 	east_welsh = {
-		graphical_culture = eastwelshgfx
+		graphical_cultures = { eastwelshgfx }
 		
 		color = { 0.1 0.6 0.4 }
 
@@ -10327,20 +10351,60 @@ east_celtic = {
 	}
 }
 anatolian_group = {
-	graphical_culture = byzantinegfx
+	graphical_cultures = { byzantinegfx }
 
 	isaurian = {
-		graphical_culture = byzantinegfx
+		graphical_cultures = { byzantinegfx }
 		
 		color = { 0.7 0.5 0.7 }
 
 		male_names = {
-			Longius Konon Leontios Leo Adrasus Celenderis Codaca Daliaandus Lauzaduz Lamus Germanicas Dometio Diocaesar Cardabunta Snrmutium Kannedeli
-			Tito Olba Heliose Illus Ardabur Aspar Julis Rhetorius Marcus Mattiarici Tarasis Kodisa Traskalisseus Rousoumbladeottes Musbanda Syca Iotapa 
-		}
-		female_names = {
-			Lallis Valeria Longina Ariadne Arcadia Topisa Meloë Musbanda Titia Iotapa Celenderis Antiochia Parva Olba Syca Hieralia 
-		}
+            		Akakios_Akakios Alkimos_Alkimos Anatolios_Anatolios Antonios_Anthony Antonios_Antonios
+            		Appalios_Appalios Arbazakios_Arbazak Armaronzas_Armasharruma Arnoubandas_Arnuuanda
+            		Artemidoros_Artemidoros Artemios_Artemios Aspalios_Appalios Athenodoros_Athenodoros
+            		Aurelios_Aurelius Basilios_Basil Bematios_Bematios Bisylas_Bisylas Blas_Pala
+            		Boniphatios_Boniface Bos_Bos Diodoros_Diodoros Diomedes_Diomedes Diophantos_Diophantos
+            		Domitios_Domitius Eianbias_Iiapiia Elpidios_Elpidios Epiphanios_Epiphanios Ermamoas_Armamuua
+            		Ermapias_Armapiia Ermapias_Armapiia Eulalios_Eulalios Euphemios_Euphemios Euphronios_Euphronios
+            		Euskhemon_Euschemon Eustathios_Eustace Georgios_George Helenos_Helenos Helladios_Helladios
+            		Iakobos_Jacob Iazarmas_Iiasharruma Illas_Illos Illios_Illos Illos_Illos Indakos_Indakos
+            		Indas_Indos Indes_Indos Indos_Indos Indous_Indos Ioannes_John Isidoros_Isidore Kerkenios_Cercenius
+            		Khrisapias_Kirshapiia Khrysippos_Chrysippos Kinyras_Kinaru Kirsamoas_Kirshamuua Klaudios_Claudius
+            		Kodisas_Kodisas Kodisseus_Kodisas Kolarbasis_Kulaarpa Konon_Konon Konstantinos_Constantine
+            		Kosmas_Kosmas Kotones_Kottones Kottones_Kottones Kottounes_Kottones Kouas_Kuua Koudeis_Kuuata
+            		Koulapias_Kulapiia Koundes_Kuuata Koundis_Kuuata Krates_Kratos Kydramouas_Kudramuua
+            		Kyriakos_Kyriakos Kyrillos_Cyril Laios_Laios Lalas_Lalas Lalos_Lalas Leon_Leo Longinos_Longinus
+            		Loupos_Lupus Lydios_Lydios Mamas_Mamas Marinos_Marinus Markianos_Marcian Markos_Mark
+            		Maximinos_Maximinus Maximos_Maximos Mennas_Menas Menodoros_Menodoros Mirasetas_Mirazita
+            		Mompraios_Mompraios Mopsos_Muksa Mosetas_Muuaziti Motas_Mutta Moupsos_Muksa Moutas_Mutta
+            		Nanios_Nannas Nannas_Nannas Nanneis_Nannas Nikias_Nikias Nounekhios_Nounechios Oadas_Oadas
+            		Obamoutas_Ubamutta Opramoas_Upparamuua Opramos_Upparamuua Orbalasetas_Uarpaziti Ouprasetas_Upparaziti
+            		Ouramoutas_Uramutta Palphourios_Palfurius Paulinos_Pauline Paulos_Paul Peison_Piso Phabios_Fabius
+            		Philippos_Philip Philopator_Philopator Phlaouios_Flavius Phlavios_Flavius Polemon_Polemon
+            		Rhondas_Runta Rhondberras_Runtapara Rhondbies_Runtapiia Rhonderbemis_Kurunizurumeri Rhondes_Runta
+            		Rhonzdrumeris_Kurunizurumeri Rhozarmas_Kurusharma Roarbasis_Kuruarpa Sandas_Shanta Sandatis_Shanta
+            		Solon_Solon Sosandros_Sosandros Stephanos_Stephen Straton_Straton Styrax_Styrax Tarasios_Tarasis
+            		Tarasis_Tarasis Tarazis_Tarasis Tarkhimos_Tarhumuua Tarkhondimotos_Tarhumuuata Tarkhymbios_Tarhupiia
+            		Tberasetas_Taparaziti Tberemosis_Taparamuua Tedianos_Tati Theodoros_Theodore Theodosios_Theodosios
+            		Theophanes_Theophanes Tiberios_Tiberius Tlamoas_Tlamuua Touanabias_Tuhanapiia Trokhoarbasis_Tarhuarpa
+            		Trokhongilanis_Tarhunhila Trokhozarmas_Tarhusharruma Trokondas_Tarhukuuata Trokoundes_Tarhukuuata
+            		Tyrannos_Tyrannus Valentinos_Valentine Zakharias_Zachariah
+        	}
+        	female_names = {
+            		Agathe_Agatha Aglaia_Aglaia Agne_Agnes Ailia_Aelia Akakia_Akakia Anatolia_Anatolia Antonia_Antonia
+            		Arara_Arara Aris_Ari Artemidora_Artemidora Artemis_Artemis Athenodora_Athenodora Aurelia_Aurelia
+            		Basilia_Basilia Diodora_Diodora Domitia_Domitia Elpis_Elpis Epiphania_Epiphania Eudoxia_Eudoxia
+            		Eulalia_Eulalia Euphemia_Euphemia Euphronia_Euphronia Eustathia_Eustathia Georgia_Georgia Helene_Helen
+            		Ioanne_Joan Ioulia_Julia Ioulitta_Juliet Isaura_Isaura Isidora_Isidora Katerina_Catherine
+            		Kerkenia_Cercenia Khrysippe_Chrysippe Klara_Klara Klaudia_Claudia Konnis_Kunni Konstantina_Constantina
+            		Kottoneis_Kottoneis Kyriake_Kyriake Kyrilla_Cyrilla Lala_Lala Lalis_Lala Lalla_Lala Lallia_Lala
+            		Lallis_Lala Laloa_Lala Leontia_Leontia Longina_Longina Loukia_Lucia Loupa_Lupa Lydia_Lydia
+            		Marina_Marina Markia_Marcia Markiane_Marciana Maxima_Maxima Maximina_Maximina Menodora_Menodora
+            		Nena_Nino Nenis_Nino Palphouria_Palfuria Paula_Paula Pauline_Paulina Pelagia_Pelagia Phabia_Fabia
+            		Philippa_Philippa Phlavia_Flavia Rhonesis_Kurunashi Sophia_Sophia Stephania_Stephania Tedinenis_Tatinani
+            		Thekla_Thekla Theodora_Theodora Theodosia_Theodosia Theophane_Theophane Tiberia_Tiberia Trebeis_Tarpa
+            		Trebemis_Tarpamira Trokondeis_Trokondeis Valeria_Valeria Valentina_Valentina Verina_Verina
+        	}
 
 		from_dynasty_prefix = "of "
 
@@ -10359,7 +10423,7 @@ anatolian_group = {
 		modifier = default_culture_modifier
 	}
 	lycaonian = {
-		graphical_culture = byzantinegfx
+		graphical_cultures = { byzantinegfx }
 		
 		color = { 0.7 0.5 0.7 }
 
@@ -10390,10 +10454,10 @@ anatolian_group = {
 }
 
 phrygian_group = {
-	graphical_culture = easternslavicgfx
+	graphical_cultures = { easternslavicgfx }
 
 	phrygian = {
-		graphical_culture = easternslavicgfx
+		graphical_cultures = { easternslavicgfx }
 		
 		color = { 0.7 0.5 0.7 }
 
@@ -10425,5 +10489,5 @@ phrygian_group = {
 		disinherit_from_blinding = yes
 		
 		modifier = default_culture_modifier
-		}
+	}
 }

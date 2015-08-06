@@ -434,7 +434,7 @@ d_fist_hubal = {
 	
 	capital = 719 # Mecca
 
-	title = "Warlord"
+	title = "WARCHIEF"
 	foa = "WARCHIEF_FOA"
 	
 	# Always exists
@@ -445,7 +445,7 @@ d_fist_hubal = {
 	# Parent Religion 
 	religion = semitic_pagan_reformed
 	
-	culture = bedouin
+	culture = bedouin_arabic
 	
 	# Cannot be held as a secondary title
 	primary = yes
@@ -1270,6 +1270,7 @@ d_catalan_company = {
 	# Hire Trigger
 	allow = {
 		religion_group = christian
+		year = 950
 	}
 	
 	# Parent Religion 
@@ -1471,7 +1472,7 @@ d_scholae_palatinae = {
 	
 	mercenary = yes
 
-	title = "Tribunus Palatinae"
+	title = "TRIBUNUS_PALATINAE"
 	foa = "CAPTAIN_FOA"
 
 	# Always exists
@@ -1495,7 +1496,7 @@ d_excubitors = {
 	
 	mercenary = yes
 
-	title = "Komes Exkoubiton"
+	title = "KOMES_EXKOUBITON"
 	foa = "CAPTAIN_FOA"
 
 	# Always exists
@@ -1553,6 +1554,7 @@ d_rus_company = {
 	
 	# Hire Trigger
 	allow = {
+		year = 950
 		OR = {
 			religion_group = pagan_group
 			religion_group = christian
@@ -1801,6 +1803,7 @@ d_catalan_band = {
 	# Hire Trigger
 	allow = {
 		religion_group = christian
+		year = 950
 	}
 	
 	# Parent Religion 
@@ -1833,7 +1836,13 @@ d_saxon_band = {
 
 	# Hire Trigger
 	allow = {
-		always = yes
+		OR = {
+			NOT = { year = 1100 }
+			any_independent_ruler = {
+				culture = saxon
+			}
+		}
+		religion_group = christian
 	}
 	
 	mercenary = yes
@@ -1903,6 +1912,7 @@ d_rus_band = {
 	
 	# Hire Trigger
 	allow = {
+		year = 950
 		OR = {
 			religion_group = christian
 			religion_group = pagan_group
@@ -2131,6 +2141,7 @@ d_scottish_band = {
 	
 	# Hire Trigger
 	allow = {
+		# year = 950
 		always = yes
 	}
 	
@@ -2267,7 +2278,7 @@ d_bulgarian_band = {
 	# Parent Religion 
 	religion = germanic_pagan
 	
-	culture = herulian
+	culture = heruli
 	
 	mercenary = yes
 

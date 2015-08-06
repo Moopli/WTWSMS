@@ -32,7 +32,7 @@
 	name="Smaragdus"
 	# Smaragdus Agricolus
 	dynasty=10424394 
-	culture = latin4
+	culture = latin
 	religion="nicene"
 	culture="helleno_thracian"	
 	540.1.1={
@@ -438,7 +438,7 @@
 	}
 }
 
-31092 = {
+310920 = {
 	name="Curincpert"
 	# Curincpert Aming
 	dynasty=10424411
