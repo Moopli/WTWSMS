@@ -3145,27 +3145,6 @@ e_byzantium = {
 				b_kalamita = {
 				}
 			}
-			c_tmutarakan = {
-				color={ 196 99 162 }
-				color2={ 255 255 20 }
-				
-				b_tmutarakan = {
-				}
-				b_mapa = {
-				}
-				b_taman = {
-				} 
-				b_tumnev = {
-				}
-				b_jevlisia = {
-				}
-				b_sujukqale = {
-				}
-				b_bata = {
-				}
-				b_tsemes = {
-				}
-			}
 		}
 		
 		d_crimea = { 
@@ -3280,6 +3259,77 @@ e_byzantium = {
 				b_kezlev = {
 				}
 				b_qurman = {
+				}
+			}
+		}
+
+		d_azov = {
+			color={ 218 179 130 }
+			color2={ 255 255 255 }
+
+			capital = 597 # Azov
+
+			c_tana = {
+				color={ 222 183 79 }
+				color2={ 255 255 255 }
+
+				b_tana = {
+				}
+				b_rostovnadonu = {
+				}
+				b_monastyrsky = {
+				}
+				b_bataysk = {
+				}
+				b_gundorovka = {
+				}
+				b_cherkassk = {
+				}
+				b_ustaksayaskaya = {
+				}
+				b_sulin = {
+				}
+			}
+			c_azov = {
+				color={ 226 187 83 }
+				color2={ 255 255 255 }
+
+				b_azov = {
+				}
+				b_azaq = {
+				}
+				b_sadki = {
+				}
+				b_eysk = {
+				}
+				b_kagalnik = {
+				}
+				b_akhtarsk = {
+				}
+				b_kugey = {
+				}
+				b_katon = {
+				}
+			}
+			c_tmutarakan = {
+				color={ 196 99 162 }
+				color2={ 255 255 20 }
+
+				b_tmutarakan = {
+				}
+				b_mapa = {
+				}
+				b_taman = {
+				}
+				b_tumnev = {
+				}
+				b_jevlisia = {
+				}
+				b_sujukqale = {
+				}
+				b_bata = {
+				}
+				b_tsemes = {
 				}
 			}
 		}
@@ -13488,27 +13538,6 @@ e_tartaria = {
 				b_yamki = {
 				}
 			}
-			c_manych = {
-				color={ 250 216 94 }
-				color2={ 255 255 255 }
-			
-				b_mozdok = {
-				}
-				b_terek = {
-				}
-				b_makhmudmekteb = {
-				}
-				b_nartkala = {
-				}
-				b_malgobekbalka = {
-				}
-				b_kunay = {
-				}
-				b_karabulak = {
-				}
-				b_makhach = {
-				}
-			}
 			c_alania = {
 				color={ 255 218 96 }
 				color2={ 255 255 255 }
@@ -13552,54 +13581,34 @@ e_tartaria = {
 				}
 			}
 		}
-		d_azov = {
-			color={ 218 179 130 }
+		d_manych = {
+			color={ 62 40 15 }
 			color2={ 255 255 255 }
 			
-			capital = 597 # Azov
-		
-			c_tana = {
-				color={ 222 183 79 }
+			capital = 605 # Manych
+
+			c_manych = {
+				color={ 250 216 94 }
 				color2={ 255 255 255 }
 			
-				b_tana = {
+				b_mozdok = {
 				}
-				b_rostovnadonu = {
+				b_terek = {
 				}
-				b_monastyrsky = {
+				b_makhmudmekteb = {
 				}
-				b_bataysk = {
+				b_nartkala = {
 				}
-				b_gundorovka = {
+				b_malgobekbalka = {
 				}
-				b_cherkassk = {
+				b_kunay = {
 				}
-				b_ustaksayaskaya = {
+				b_karabulak = {
 				}
-				b_sulin = {
-				}
-			}
-			c_azov = {
-				color={ 226 187 83 }
-				color2={ 255 255 255 }
-			
-				b_azov = {
-				}
-				b_azaq = {
-				}
-				b_sadki = {
-				}
-				b_eysk = {
-				}
-				b_kagalnik = {
-				}
-				b_akhtarsk = {
-				}
-				b_kugey = {
-				}
-				b_katon = {
+				b_makhach = {
 				}
 			}
+
 			c_kuban = {
 				color={ 230 191 87 }
 				color2={ 255 255 255 }
